@@ -16,7 +16,7 @@
 - [[16. Množiny, relace a zobrazení]]
 - [[17. Diferenciální a integrální počet funkcí jedné a více proměnných]]
 - ...
-- [[19. Výroková logika a predikátová logika. Syntaxe a sémantika výrokové logiky. Splnitelnost a platnost. Logická ekvivalence a logický důsledek. Normální formy. Jazyk predikátové logiky prvního řádu. Syntaxe, termy a formule, volné a vázané proměnné]]
+- [[19. Výroková logika a predikátová logika]]
 - [[20. Boolovy algebry]]
 - [[21. Regulární jazyky a jejich modely]]
 - [[22. Bezkontextové jazyky a jejich modely]]
