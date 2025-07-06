@@ -22,17 +22,18 @@
             }
           },
           {
-            "id": "72caf18c567aa2dc",
+            "id": "393daa9274d1a051",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "CROSSROADS.md",
-                "bFile": "CROSSROADS.md",
-                "aRef": ""
+                "aFile": "Questions/Bachelor's Questions/24. Numerické metody.md",
+                "bFile": "Questions/Bachelor's Questions/24. Numerické metody.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
               "icon": "diff",
-              "title": "Diff: CROSSROADS"
+              "title": "Diff: 24. Numerické metody"
             }
           }
         ],
@@ -156,13 +157,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction_To_Automata_Theory-John_Hopcroft"
+              "title": "Outline"
             }
           },
           {
@@ -194,44 +194,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72caf18c567aa2dc",
+  "active": "393daa9274d1a051",
   "lastOpenFiles": [
+    "Study Materials/Math/Linear Algebra/Matrix.md",
+    "Study Materials/Automata/Types/Stack Automata.md",
+    "Study Materials/Math/Logic/Propositional Logic.md",
+    "Study Materials/Math/Logic/Predicate Logic.md",
+    "Questions/Bachelor's Questions/19. Výroková logika a predikátová logika.md",
+    "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
+    "Excalidraw/Automata/Automata_Diagram.md",
+    "Excalidraw/Automata/Stack_Automata_Diagram.md",
+    "Excalidraw/Automata/Mealy_Automata.md",
+    "Study Materials/Automata/Types/Finite Automata.md",
+    "Study Materials/Automata/Types/Automata.md",
+    "Study Materials/Automata/Automata Theory.md",
+    "Study Materials/Automata/Terms/Language.md",
+    "Questions/Bachelor's Questions/3. Sekvenční logické obvody.md",
     "Study Materials/Math/Proof/Formal Proof.md",
     "README.md",
-    "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
     "Study Materials/Automata/Chomsky Hierarchy.md",
     "Untitled.md",
     "bibtext_book_template.md",
     "Study Materials/Automata/Languages/Regular/Regular Language.md",
-    "Study Materials/Automata/Automata.md",
     "Study Materials/Automata/Terms/String.md",
     "Study Materials/Automata/Terms/Alphabet.md",
-    "Study Materials/Automata/Terms/Language.md",
     "Study Materials/Automata/Languages/Regular/Pumping Lemma.md",
     "Study Materials/Automata/Languages/Regular/Regular Expressions.md",
     "Study Materials/Automata/Languages/Regular/Regular Grammar.md",
     "Study Materials/Automata/Languages/Context-Free/Context-Free Grammar.md",
     "Study Materials/Automata/Languages/Context-Free/Context-Free Language.md",
     "Study Materials/Automata/Terms",
-    "Study Materials/Math/Probability and Statistics/Probability.md",
-    "Study Materials/Math/Probability and Statistics/Statistics.md",
-    "Study Materials/Automata/Basics/Untitled.md",
     "Study Materials/Automata/Languages/Context-Free",
     "Study Materials/Automata/Languages",
     "Study Materials/Automata/Languages/Regular",
     "Study Materials/Math/Proofs/Untitled",
     "Study Materials/Math/Proof",
-    "Study Materials/Automata/State Machines/Finite Automata.md",
     "Study Materials/Diagrams",
-    "Study Materials/Automata/State Machines/Pushdown Automata.md",
     "Sources/SZZ_okruhy_all.pdf",
-    "Study Materials/Math/Logic/Propositional Logic.md",
-    "Study Materials/Math/Discrete/Sets/Set.md",
-    "Questions/Bachelor's Questions/15. Číslicové filtry.md",
     "Sources/Introduction To Automata Theory_john hopcroft.pdf",
-    "Questions/Bachelor's Questions/Question Overview.md",
-    "Questions/Bachelor's Questions/31. Pravděpodobnost a statistika.md",
-    "Questions/Bachelor's Questions/16. Množiny, relace a zobrazení.md",
     "Study Materials/Processing/Untitled.canvas",
     "Untitled.canvas"
   ]
