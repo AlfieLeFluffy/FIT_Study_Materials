@@ -1,0 +1,3 @@
+The final logic formula is as an addition of multiplications as the name implies. It can be derived from a truth table by adding together the expressions made by multiplying (AND) rows where the logical outcome is 1. **Importantly** when writing the variables down it is important to put a negation over those that are log. 0. Log. 1 variables are kept without negation. In the short version we can write it down with index to the lines that result in log. 1 outputs.
+- `F(x, y, z) = x' * y' * z' + x' * y * z' + x * y' * z' + x * y'* z'`
+- `F(x, y, z) = 1(0,2,4,6) = ∑(0,2,4,6) = ∨(0,2,4,6)`

@@ -1,0 +1,3 @@
+The final logic formula is as a multiplication of additions as the name implies. It can be derived from a truth table by multiplying together the expressions made by adding variables in (OR) rows where the logical outcome is 0. **Importantly** when writing the variables down it is important to put a negation over those that are log. 1. Log. 0 variables are kept without negation. In the short version we can write it down with index to the lines that result in log. 0 outputs.
+- `F(x, y, z) = (x + y + z') * (x + y' + z') *  (x' + y + z') *  (x' + y' + z) `
+- `F(x, y, z) = &(1,3,5,7) = ∏(1,3,5,7) = ∧(1,3,5,7)`
