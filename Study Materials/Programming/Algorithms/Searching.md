@@ -1,0 +1,37 @@
+There are many ways of implementing searching that highly depend on what structure we are searching through.
+### Criteria
+There are three criteria that we can look at when searching and returning either a success or failure:
+- **Minimal** time
+- **Maximal** time
+- **Average** time
+## Types
+### Sequential Search
+The elements that the search goes through are in a sequence or one after another.
+- **In an Unordered Set** the quickest way to find an element is to go through the set from beginning till the end. This is an easy search to implement, but also is quite costly.
+	- Minimal time of success is **1**
+	- Maximum time of success is **N**
+	- Average time for success is **N/2**
+	- Time for failure is **N**
+- **In an Unordered Set with a Stopper** is when we put a stop element at the end with the key we seek. This means that they key is always found and it speed up the process by not requiring us to test if the set is over. In the end we just have to test if we found the element or the stopper.
+- **In an Ordered Set** once the search finds a key of a greater value then the once we seek we can end the search as failure and only speeds up if the search is a failure. This can be improved with concepts such as **halving of intervals**, which works only for keys that use some order relation. An issue is **adding/deleting** elements as this requires ordering the set again, but this can be solved but either adding the element into a place it belongs to or blinding the entry for a deleted element.
+- **By access frequency** is when the most used elements are at the beginning of the set. For this we can used a counter of times an element was found and then periodically the list gets reordered based upon this counter. Another way of doing this is to swap a found element with the previous element, thus putting it forward, which does not require a counter.
+- **By probability** is similar toe by access frequency, but we know the probability of access to elements ahead of time.
+### Non-sequential Search
+Access to the elements of a set can be random.
+- **Binary Search in an Ordered Set** is similar to halving of an interval. The algorithm relies on halving the interval and then checking if to search (halve) the left or the right subset. The worst possible time complexity can be [[Time and Space Complexity|O(log n)]]. There is still an issue with adding/removing elements.
+- **Dijkstra's Binary Search** uses the assumption that there are more then one instance of an element with the same key in the set and thus returns the element most to the right. It can be implemented as a binary search to find the elements with such a key and then sequentially find the last one.
+- **Binary Search Tree** similar to binary search in an ordered set, but instead of halving the interval and choosing a subset, this one only chooses which subtree to continue in based on its root value. The upside of using a BST is that it is easier to add or delete elements for the tree. When adding an element we can search the tree until we find a suitable empty list element to add it to (in case of a levelling tree there are mechanics to relevel the tree). With deleting an element we can either replace it with the most **right element** of its **left subtree** or with its most **left element** in its **right subtree**.
+- **Binary Search Tree with a Stopper** function just like a normal binary tree search, but with the added benefit of a stopper.
+- **Searching a Tree with Multiple Keys in Nodes** uses tree nodes that can hold multiple keys. If a node hold **N** keys then it can have **N+1** child nodes. This decreases the trees depth, but can increase the path finding as we can no longer just select one from two options. The internal node do not have to hold data, just point to the lowest (external) nodes that do. This lowest level is usually sequentially linked together in order to allow the search algorithm to continue the search to the right once it reached the bottom.
+- **Hash Tables** or tables with a diffused elements are tables with direct access to the elements. They use a **mapping function** that can create a index from a key that maps directly to a tably entry. This makes the time complexity as low as it can be at [[Time and Space Complexity|O(1)]], but there is an issue with possible collisions. **Collisions** are caused when an element has the same hash value (but different key) as another element, essentially mapping two elements into one place. This can be solved through either **explicit** or **implicit** chaining of synonyms. Searching through these synonyms will can be sequential or not with time complexity of [[Time and Space Complexity|O(n)/O(log n)]].
+	- **Explicit** chaining uses some kind of structure to represent synonyms, which is linked in the row to which they are mapped.
+	- **Implicit** chaining uses the next lines in the table to store the synonyms.
+### Searching in Text
+Searching in text is usually done to locate a sub-text (sub-string) in a larger piece of text. There are two main ways of doing this, either through algorithms or [[Study Materials/Automata/Types/Automata]]:
+- **Naive (Brute-Force) Algorithm** checks each symbol of the text again the searched text from left to right, if the characters do not match then it moves one character to the right and starts over. 
+	- It has the worst complexity of these algorithms at [[Time and Space Complexity|O(n * m)]], where **n** is the size of the text and **m** is the size of the searched text.
+- **Knuth-Moris-Pratt Algorithm** uses a [[Study Materials/Automata/Types/Automata]] and still checks the text from left to right. If there is a miss-match then it does not return back in the text, but tries to shift the sample back until it matches again and then resumes. 
+	- It has the complexity of  [[Time and Space Complexity|O(n + m)]], where **n** is the size of the text and **m** is the size of the searched text.
+- **Boyer-Moore Algorithm** still moves the sample over the text from left to right, but checks for the match from right to left, which means it can skip over and not even check some characters as the result still would not be a match.
+- **Rabin-Karp Algorithm** uses hashing to search for the substring. It calculates the hash for the sample and moves through the text calculating a hash of the text in the same length as the sample and checks if they match. This relies on how quickly we can calculate hashes, but we can use hash function that allows for addition/subtraction of values of one element of the hashed text, so instead of calculating the entire hash for all possible combinations, we start with one hash calculation and then alter it as we go along.
+- **Character Trees** allow for searching for multiple samples at the same time. The searched texts are put into a tree where character combinations can share branches such as APE and APPLE and where we can also find matches, but still continue with the search such as CAR and CART. These trees can be working with for example **Aho-Corasick Algorithm** that use a state machine. This state machine is designed in a such a way that if a wrong character is found they do not start over, but try to first backtrack through the states until they find one that fits or a back at the root of the tree.
