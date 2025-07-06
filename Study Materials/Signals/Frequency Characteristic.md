@@ -1,0 +1,1 @@
+A **frequency characteristic** describes/defines system in a **frequency domain**, same as [[Impulse Response]] characterizes it in **time domain**. Graphically we can plot it onto two graphs with **amplitude |H(⍵)|** (how it increases/decreases) and **phases arg(H(⍵))** (how it shifts).

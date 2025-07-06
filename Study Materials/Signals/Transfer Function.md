@@ -1,0 +1,6 @@
+A **Transfer Function** defines an **LTI system**. If we want to apply some filter to a signal, then we can multiply it by this filter ([[Impulse Response#Convolution|Convolution]] **over time**) in the **frequency** domain. A transfer function is defined as a **division** (ratio) of **output to inputs** if the **starting conditions are ignored**. In another words in zero starting conditions, it is a **division** of the [[Spectral Analysis#Fourier Transform (FT)|Fourier Transformation]] of outputs to input, respectively **Z transformations** of signals for which a **FT** cannot be made (signals that are not in +-infinity evaluated at 0, have infinite energy, Z transformation multiplies them such as if they were in +- infinity 0). Another way to define a transfer function is as a **FT** of the [[Impulse Response]] of **FIR** systems or as **ZT** of **IIR**. **FT/ZT** of an impulse response is for this reason that input is one.
+## Types
+- **Low Pass** filter, which only lets through **lower frequencies**.
+- **High Pass** filter, which only lets through **high frequencies**.
+- **Bandpass** filter, which **lets** through only signals of **certain** frequencies.
+- **Bandstop** filter, which **does not let** through signals of **certain** frequencies.
