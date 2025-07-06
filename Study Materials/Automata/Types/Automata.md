@@ -15,11 +15,11 @@ There are there many components a state machine must have:
 ### Mealy's Automata
 The output is a function of both the current state and the input: **Y = f(X, Z)**.
 	In practice this means that each edge (changes of state) is denoted not only by input, but also the value that should be outputted. Example could be if we have states A and B and there is a state change function A * 1 -> B and an output function A * 1 -> 0. So the edge is denoted as 1/0 (input/ouput).
-![[Mealy_State_Machine]]
+![[Mealy_Automata]]
 ### Moore's Automata
 Out of the state machine is only dependent only on the current state of the SM: **Y = f(Z)**.
 	Example could be if we have states A and B and there is a state change function A * 1 -> B and an output function A -> 0. So the edge is denoted as 1 (input) and the output is denoted on the state node by 0.
-![[Moors_State_Machine]]
+![[Moors_Automata]]
 
 ### Combination Automata
 Combines both a Moor's and Mealy's Automata into one.
