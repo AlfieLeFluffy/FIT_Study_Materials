@@ -1,0 +1,3 @@
+## Overview
+Combination logic circuit are electric circuits that dependent only on the combination of inputs and do not have memory.
+Examples of combination circuits are: [[Multiplexor]], [[Demultiplexor]], [[Coder]], [[Decoder]], [[Adders]], etc...
