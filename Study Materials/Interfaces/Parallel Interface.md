@@ -1,0 +1,3 @@
+Communication in parallel interfaces is combines the approach in [[Serial Interface]]s, but instead of only sending one value through one conductor it sends multiple values through multiple conductors at the same time. 
+	For example instead of sending 8bits over 8 clock cycles it can send all 8 bits in 1 clock cycle through 8 wires.
+This approach can be faster, but that depends on implementation as there can be some issues such as magnetic induction, synchronization of all 8 conductors, etc. For common interaction like small file transfers, I/O interactions, Ethernet is much easier and stable to use [[Serial Interface]]s.
