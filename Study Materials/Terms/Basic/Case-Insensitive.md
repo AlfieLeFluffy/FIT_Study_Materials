@@ -1,0 +1,1 @@
+The system does not differentiate between uppercase and lowercase characters.

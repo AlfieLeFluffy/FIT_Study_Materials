@@ -1,0 +1,1 @@
+Communication mode in which only one devices can send messages with the other one receive messages, but not the other way around. This requires at least one conductor (or equivalents) to implement, but can also be done through two.

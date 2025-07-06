@@ -1,0 +1,2 @@
+- **Synchronous** - Together with the data a clock signal ([[CLK]]) is sent. The signal can be interpreted in several ways depending on the interface (data is valid on the rising/stable/falling edge).
+- **Asynchronous** - There is not clock signal ([[CLK]]) sent with the data. The receiver and transmitter generate it themselves and there must be one setup (agreed upon/configured) [[Baud Rate (Bd)]]. 

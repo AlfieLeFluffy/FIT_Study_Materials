@@ -1,0 +1,1 @@
+**Most Signiant Bit** - the bit with the highest importance / the highest order. Impacts the final value the most.

@@ -1,0 +1,1 @@
+**Least Signiant Bit** - the bit with the least importance / the lowest order. Impacts the final value the least.

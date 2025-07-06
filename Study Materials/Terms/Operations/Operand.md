@@ -1,0 +1,1 @@
+An operand is a value that enters a operation as an arguments. For example in *"5+6 = 11"*, the numbers 5 and 6 are operands.

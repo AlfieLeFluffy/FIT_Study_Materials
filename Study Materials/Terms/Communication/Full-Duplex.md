@@ -1,0 +1,1 @@
+Communication mode in which both devices can receive and send messages independent of if the other device is receiving or sending a message at the same time. Requires two conductors (or equivalents) to implement.
