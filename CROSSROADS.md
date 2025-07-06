@@ -1,8 +1,7 @@
-[[1. Princip činnosti polovodičových prvků.]]
-[[2. Kombinační logické obvody]]
-[[3. Sekvenční logické obvody]]
-[[4. Hierarchie paměti v počítači]]
+This is a root file for navigation within this Obsidian Vault. If you see any errors or false information please create a pull request with the correction or a new issue on the host platform.
 
+---
+## Questions:
 
+![[Question Overview]]
 
-[[40. OOP]]

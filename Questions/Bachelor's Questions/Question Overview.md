@@ -1,0 +1,38 @@
+- [[1. Princip činnosti polovodičových prvků]]
+- [[2. Kombinační logické obvody]]
+- [[3. Sekvenční logické obvody]]
+- [[4. Hierarchie paměti v počítači]]
+- [[5. Vestavěné systémy]]
+- [[6. Principy řízení a připojování periferních zařízení]]
+- [[7. Princip činnosti počítače]]
+- [[8. Minimalizace logických výrazů]]
+- [[9. Reprezentace čísel a základní dvojkové aritmetické operace v počítači.]]
+- [[10. Technologie FPGA, kroky návrhu aplikací využívajících FPGA a základy syntetizovatelného popisu hardware]]
+- [[11. 2D vektorová grafika]]
+- [[12. Transformace a zobrazení 3D polygonálních modelů, principy programovatelného vykreslovacího řetězce]]
+- ...
+- [[14. Spektrální analýza spojitých a diskrétních signálů]]
+- [[15. Číslicové filtry]]
+- [[16. Množiny, relace a zobrazení]]
+- [[17. Diferenciální a integrální počet funkcí jedné a více proměnných]]
+- ...
+- [[19. Výroková logika a predikátová logika. Syntaxe a sémantika výrokové logiky. Splnitelnost a platnost. Logická ekvivalence a logický důsledek. Normální formy. Jazyk predikátové logiky prvního řádu. Syntaxe, termy a formule, volné a vázané proměnné]]
+- [[20. Boolovy algebry]]
+- [[21. Regulární jazyky a jejich modely]]
+- [[22. Bezkontextové jazyky a jejich modely]]
+- ...
+- [[24. Numerické metody]]
+- ...
+- [[27. Strojové učení]]
+- ...
+- [[30. Vyhledávání a řazení]]
+- [[31. Pravděpodobnost a statistika]]
+- ...
+- [[34. Jazyk UML]]
+- ...
+- [[36. Reprezentace a uložení strukturovaných dat, serializace a deserializace, relační datový model, jazyk SQL, transakce.]]
+- ...
+- [[38. Principy a struktury správy souborů a správy paměti]]
+- ...
+- [[40. OOP]]
+## Questions To Do
