@@ -4,67 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c44d3132a99446c9",
+        "id": "30c607474e0f2ed0",
         "type": "tabs",
         "children": [
           {
-            "id": "26bad70bb12da148",
+            "id": "64ff80b1966807b5",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "CROSSROADS.md",
-                "mode": "source",
-                "source": false
+                "file": "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf"
               },
-              "icon": "lucide-file",
-              "title": "CROSSROADS"
+              "pinned": true,
+              "icon": "lucide-file-text",
+              "title": "Introduction_To_Automata_Theory-John_Hopcroft"
             }
           },
           {
-            "id": "639df52280f9b1ab",
+            "id": "72caf18c567aa2dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Questions/2. Kombinační logické obvody.md",
-                "mode": "source",
-                "source": false
+                "aFile": "CROSSROADS.md",
+                "bFile": "CROSSROADS.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2. Kombinační logické obvody"
-            }
-          },
-          {
-            "id": "d08d1ca214e9113b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/3. Sekvenční logické obvody.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Sekvenční logické obvody"
-            }
-          },
-          {
-            "id": "adb1722282dce9b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hardware/Semiconductors.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Semiconductors"
+              "icon": "diff",
+              "title": "Diff: CROSSROADS"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 363.5
   },
   "right": {
     "id": "232ea24c7b8ecb6d",
@@ -137,17 +109,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hardware/Semiconductors.md",
-                "collapseAll": false,
+                "file": "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Semiconductors"
+              "title": "Backlinks for Introduction_To_Automata_Theory-John_Hopcroft"
             }
           },
           {
@@ -156,12 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hardware/Semiconductors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Semiconductors"
+              "title": "Outgoing links"
             }
           },
           {
@@ -185,21 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hardware/Semiconductors.md",
+                "file": "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Semiconductors"
+              "title": "Outline of Introduction_To_Automata_Theory-John_Hopcroft"
+            }
+          },
+          {
+            "id": "f15a05c96728846f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 853.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,36 +189,50 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adb1722282dce9b0",
+  "active": "72caf18c567aa2dc",
   "lastOpenFiles": [
-    "ssz_map/LICENSE",
-    "ssz_map",
-    "Questions/1. Princip činnosti polovodičových prvků..md",
-    "Questions/2. Kombinační logické obvody.md",
-    "CROSSROADS.md",
-    "Questions/4. Hierarchie paměti v počítači.md",
-    "Questions/3. Sekvenční logické obvody.md",
-    "hardware/Semiconductors.md",
-    "hardware/CMOS.md",
-    "hardware/Diodes.md",
-    "hardware/MOSFET.md",
-    "hardware/Transistors.md",
-    "Questions/40. OOP.md",
-    "Questions",
-    "networks",
-    "processing",
-    "hardware",
-    "databases",
-    "programming",
-    "sources/thesis_template_source.md",
-    "docs/game_design_doc.md",
-    "PDFs/bc_project_thesis.pdf",
-    "sources",
-    "docs/thesis.md",
-    "docs",
-    "bc_projcet_thesis.pdf.md"
+    "Study Materials/Math/Proof/Formal Proof.md",
+    "README.md",
+    "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
+    "Study Materials/Automata/Chomsky Hierarchy.md",
+    "Untitled.md",
+    "bibtext_book_template.md",
+    "Study Materials/Automata/Languages/Regular/Regular Language.md",
+    "Study Materials/Automata/Automata.md",
+    "Study Materials/Automata/Terms/String.md",
+    "Study Materials/Automata/Terms/Alphabet.md",
+    "Study Materials/Automata/Terms/Language.md",
+    "Study Materials/Automata/Languages/Regular/Pumping Lemma.md",
+    "Study Materials/Automata/Languages/Regular/Regular Expressions.md",
+    "Study Materials/Automata/Languages/Regular/Regular Grammar.md",
+    "Study Materials/Automata/Languages/Context-Free/Context-Free Grammar.md",
+    "Study Materials/Automata/Languages/Context-Free/Context-Free Language.md",
+    "Study Materials/Automata/Terms",
+    "Study Materials/Math/Probability and Statistics/Probability.md",
+    "Study Materials/Math/Probability and Statistics/Statistics.md",
+    "Study Materials/Automata/Basics/Untitled.md",
+    "Study Materials/Automata/Languages/Context-Free",
+    "Study Materials/Automata/Languages",
+    "Study Materials/Automata/Languages/Regular",
+    "Study Materials/Math/Proofs/Untitled",
+    "Study Materials/Math/Proof",
+    "Study Materials/Automata/State Machines/Finite Automata.md",
+    "Study Materials/Diagrams",
+    "Study Materials/Automata/State Machines/Pushdown Automata.md",
+    "Sources/SZZ_okruhy_all.pdf",
+    "Study Materials/Math/Logic/Propositional Logic.md",
+    "Study Materials/Math/Discrete/Sets/Set.md",
+    "Questions/Bachelor's Questions/15. Číslicové filtry.md",
+    "Sources/Introduction To Automata Theory_john hopcroft.pdf",
+    "Questions/Bachelor's Questions/Question Overview.md",
+    "Questions/Bachelor's Questions/31. Pravděpodobnost a statistika.md",
+    "Questions/Bachelor's Questions/16. Množiny, relace a zobrazení.md",
+    "Study Materials/Processing/Untitled.canvas",
+    "Untitled.canvas"
   ]
 }

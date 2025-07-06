@@ -1,0 +1,18 @@
+{
+  "bibtex-manager:create-bibtex": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "bibtex-manager:insert-bibtex": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiNotebookPen",
+      "LiBook",
+      "LiQuestionMarkGlyph",
+      "❔",
+      "LiPen"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Excalidraw": {
+    "iconName": "LiPen",
+    "iconColor": "#00ff04"
+  },
+  "Study Materials": {
+    "iconName": "LiNotebookPen",
+    "iconColor": "#5c6fff"
+  },
+  "Questions": "❔",
+  "Questions/Bachelor's Questions": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#ff0000"
+  },
+  "Questions/Master's Questions": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#ff00ae"
+  },
+  "Sources": {
+    "iconName": "LiBook",
+    "iconColor": "#ff4d4d"
+  }
+}
