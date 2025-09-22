@@ -1,1 +1,1 @@
-**Least Signiant Bit** - the bit with the least importance / the lowest order. Impacts the final value the least.
+**Least Signiant Bit** - the bit with the least importance / the lowest order. Impacts the final value the least. It is the opposite of [[MSB]].

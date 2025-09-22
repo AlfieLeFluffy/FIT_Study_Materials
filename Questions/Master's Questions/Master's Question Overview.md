@@ -1,0 +1,64 @@
+- [[1. Architektura superskalárních procesorů, zpracování instrukcí mimo pořadí, řešení datových a řídících konfliktů, predikce skoků.]]
+- 2. Paměťová konzistence a předbíhání operací čtení a zápisu, podpora virtuálního adresového prostoru.
+- 3. Datový paralelismus SIMD a SIMT, jejich HW implementace a SW podpora na CPU a GPU.
+- 4. Architektury se sdílenou pamětí UMA a NUMA, zajištění lokality dat, protokoly koherence pamětí cache.
+- 5. Paralelní zpracování v OpenMP: Smyčky, sekce, tasky a synchronizační prostředky.
+- 6. Vztah zpracování signálu a multimédií (proč je zpracování zvukového a obrazového signálu pro multimédia důležité, typické operace při zpracování zvukového a obrazového signálu).
+- 7. Komprese zvuku (základní postupy při kompresi zvuku, jak se liší od obecné komprese dat, vztah k vlastnostem lidského sluchu, dosahovaný kompresní poměr).
+- 8. Komprese obrazu (základní postupy při kompresi obrazu, jak se liší od obecné komprese dat, vztah k vlastnostem lidského zraku, dosahovaný kompresní poměr).
+- 9. Komprese videosekvencí (základní postupy při kompresi videa, jak se liší od komprese obrazu a od obecné komprese dat, vlastnosti a dosahovaný, kompresní poměr).
+- 10. Programátorská rozhraní pro multimédia (přehled rozhraní, příklady použití rozhraní pro audio a video, základní vlastnosti rozhraní).
+- [[11. Problém generalizace strojového učení a přístup k jeho řešení]]
+- [[12. Generativní modely a diskriminativní přístup ke klasifikaci]]
+- 13. Neuronové sítě a jejich trénování (metoda gradientního sestupu, účelová (loss) funkce, výpočetní graf, aktivační funkce, zápis pomocí maticového násobení, ...).
+- 14. Neuronové sítě pro strukturovaná data (konvoluční a rekurentní sítě, motivace, základní vlastnosti, použití).
+- 15. Prohledávání stavového prostoru (informované a neinformované metody, lokální prohledávání, prohledávání v nejistém prostředí, hraní sekvenčních her, CSP úlohy).
+- [[16. Postrelační a rozšířené relační databáze.]]
+- 17. NoSQL databáze (porovnání relačních a NoSQL; CAP věta a ACID/BASE principy; typy NoSQL databází; dotazování v NoSQL databázích; agregace dat pomocí Map-Reduce a agregační pipeline).
+- 18. Porozumění datům a jejich příprava pro data mining (důvody a cíle; popisné charakteristiky dat a vizualizační techniky; korelační analýza; metody čištění; redukce dat a řešení nevyváženosti; normalizace dat).
+- 19. Ontologie a sémantický web (linked data, datový model RDF, ontologie, RDF schema a OWL, strukturovaná data na WWW).
+- 20. Prostorové databáze, indexace (nejen) v prostorových DB (problematika mapování prostoru, kD-Tree a Grid File vč. jejich variant a R-Tree).
+- 21. Konceptuální model funkčnosti aplikace nebo služby, jeho testování, návrh.
+- 22. Návrh zaměřený na uživatele (User Centered Design, UCD) – proces, testování, pojmy.
+- 23. Prvky uživatelských rozhraní – webových aplikací, mobilních aplikací – společné rysy, odlišnosti.
+- 24. Lineární algebra (determinant matice, vlastní čísla, vlastní vektory, PCA) a geometrické predikáty.
+- 25. Hledání intervalů, hledání k nejbližších sousedů (používané datové struktury, složitost operací, randomizované datové struktury).
+- 26. Konvexní obálka ve 2D (definice konvexní obálky, základní metody, algoritmus Quickhull).
+- 27. Lambda kalkul (definice všech pojmů, operací...).
+- 28. Práce v lambda kalkulu (demonstrace reprezentace čísel a pravdivostních hodnot a operací nad nimi).
+- 29. Haskell - lazy evaluation (typy v jazyce včetně akcí, uživatelské typy, význam typových tříd, demonstrace lazy evaluation).
+- 30. Prolog – způsob vyhodnocení (základní princip, unifikace, chování vestavěných predikátů, operátor řezu – vhodné a nevhodné užití).
+- 31. Prolog – změna DB/programu za běhu (demonstrace na prohledávání stavového prostoru, práce se seznamy).
+- 32. Interference světla (skládání dvou a více koherentních vln, intenzita složené vlny, interferenční člen, konstruktivní a destruktivní interference, princip interferometru).
+- 33. Difrakce světla (rozložení intenzity světla za obdélníkovou a kruhovou štěrbinou, Airyho obrazec, rozlišovací schopnost optických přístrojů, oka).
+- 34. Polarizace světla (přirozené a lineárně polarizované světlo, polarizační rovina, způsoby polarizace světla, elipticky polarizované světlo, polarizační filtry).
+- 35. Holografie a laser (holografický kód, jeho dekódování, mimoosový hologram, objemový hologram, vztah holografie a laseru).
+- [[36. Pravděpodobnost, podmíněná pravděpodobnost, nezávislost.]]
+- [[37. Náhodná proměnná, typy náhodné proměnné, funkční a číselné charakteristiky, významná rozdělení pravděpodobnosti.]]
+- [[38. Bodové a intervalové odhady parametrů, testování hypotéz o parametrech.]]
+- 39. Vícevýběrové testy, testy o rozdělení, testy dobré shody.
+- 40. Regresní analýza.
+- [[41. Markovské řetězce a základní techniky pro jejich analýzu.]]
+- 42. Randomizované algoritmy (Monte Carlo a Las Vegas algoritmy)
+- [[43. Grafická knihovna OpenGL vykreslovací řetězec, frame buffer, stencil buffer.]]
+- 44. Principy vykreslování: Object Order, Image Order, Global Illumination. Typické metody v každé trídě algoritmů – jejich základní a pokročilé podoby.
+- 45. Afinní 3D transformace, kamera, projekce, skládání transformací.
+- 46. Osvětlení: způsob výpočtu, osvětlovací modely, stínování, materiály.
+- 47. Realistické zobrazování: metoda sledování paprsku, radiozita, distribuované sledování paprsku, sledování cest.
+- 48. Distribuované a paralelní algoritmy – algoritmy řazení, select, algoritmy vyhledávání.
+- 49. Model PRAM, suma prefixů a její aplikace.
+- 50. Distribuované a paralelní algoritmy – algoritmy nad seznamy, stromy a grafy.
+- 51. Interakce mezi procesy a typické problémy paralelismu (synchronizační a komunikační mechanismy).
+- 52. Distribuovaný konsenzus, broadcast, vzájemné vyloučení. Knihovna MPI.
+- [[53. Klasifikace formálních jazyků, vlastnosti formálních jazyků a jejich rozhodnutelnost]]
+- [[54. Konečné automaty]]
+- 55. Regulární množiny, regulární výrazy a rovnice nad regulárními výrazy.
+- 56. Zásobníkové automaty (jazyky přijímané ZA, varianty ZA).
+- 57. Turingovy stroje (jazyky přijímané TS, varianty TS, lineárně omezené automaty, vyčíslitelné funkce).
+- 58. Nerozhodnutelnost (problém zastavení TS, princip diagonalizace a redukce, Postův korespondenční problém).
+- 59. Časová a paměťová složitost (asymptotická a amortizovaná složitost, třídy složitosti, úplnost, SAT problém).
+- 60. Principy a limity realistické počítačové grafiky dané fyzikou (vlastnosti světla, šíření světla, odraz a lom světla, osvětlovací modely).
+- 61. Shadery a jejich vlastnosti (pokročilé principy zobrazovacího řetězce, "Geometry Shader", "Teselation", "Compute Shader") a zobrazovací algoritmy v reálném čase ("GBuffer", "Shadow Mapping", globální osvětlení v reálném čase).
+- 62. Rozsáhlé scény (odlišnosti od jiných scén, principy, "Level of Detail" metody).
+- 63. Scény s vysokým dynamickým rozsahem HDR (principy. způsob snímání, zobrazování/"Tone Mapping").
+- 64. Virtuální a "Augmented" realita (principy, vlastnosti, odlišnosti virtuální a augmented reality).

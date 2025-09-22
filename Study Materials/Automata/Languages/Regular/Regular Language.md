@@ -1,4 +1,11 @@
-A Regular [[Language]] is the simplest Formal Language in the frame of [[Chomsky Hierarchy]]. Over the alphabet **Σ** we can define them as:
+---
+tags:
+  - IFJ
+  - TIN
+aliases:
+  - RL
+---
+A Regular [[Formal Language]] is the simplest Formal Language in the frame of [[Chomsky Hierarchy]]. Over the alphabet **Σ** we can define them as:
 - Empty language **Ø** is regular.
 - For each **a, a ∈ Σ**, language **{ a }** is regular.
 - If languages **A** and **B** are regular then their **unification**, **concatenate** and **iteration** are also regular.

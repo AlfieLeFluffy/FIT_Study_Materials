@@ -2,6 +2,10 @@ This is a root file for navigation within this Obsidian Vault. If you see any er
 
 ---
 ## Questions:
+### Bachelor's
+[[Bachelor's Question Overview]] or:
+![[Bachelor's Questions.base]]
 
-![[Question Overview]]
-
+### Master's
+[[Master's Question Overview]] or:
+![[Master's Questions.base]]

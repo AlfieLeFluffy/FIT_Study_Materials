@@ -10,18 +10,19 @@
 - [[10. Technologie FPGA, kroky návrhu aplikací využívajících FPGA a základy syntetizovatelného popisu hardware]]
 - [[11. 2D vektorová grafika]]
 - [[12. Transformace a zobrazení 3D polygonálních modelů, principy programovatelného vykreslovacího řetězce]]
-- ...
+- [[13. Principy grafických uživatelských rozhraní]]
 - [[14. Spektrální analýza spojitých a diskrétních signálů]]
 - [[15. Číslicové filtry]]
 - [[16. Množiny, relace a zobrazení]]
 - [[17. Diferenciální a integrální počet funkcí jedné a více proměnných]]
-- ...
+- [[18. Číselné soustavy a převody mezi nimi]]
 - [[19. Výroková logika a predikátová logika]]
 - [[20. Boolovy algebry]]
 - [[21. Regulární jazyky a jejich modely]]
 - [[22. Bezkontextové jazyky a jejich modely]]
-- ...
+- [[23. Struktura překladače a charakteristika fází překladu]]
 - [[24. Numerické metody]]
+- [[25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry.]]
 - ...
 - [[27. Strojové učení]]
 - ...
@@ -35,4 +36,4 @@
 - [[38. Principy a struktury správy souborů a správy paměti]]
 - ...
 - [[40. OOP]]
-## Questions To Do
+- ...

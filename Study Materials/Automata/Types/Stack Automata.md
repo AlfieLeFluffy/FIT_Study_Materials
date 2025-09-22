@@ -10,7 +10,7 @@ Interpretation of the rules **Apa ->wq ∈ R** is that **p** is the current stat
 To visualize this we can use the same notation as for [[Finite Automata]], but updated with a new transition notation such as:
 ![[Stack_Automata_Diagram]]
 ## Types of Accepted Languages
-A [[Language]] is accepted by this type of automata if either:
+A [[Formal Language]] is accepted by this type of automata if either:
 - **Transition into a Terminal State**
 - **Emptying of the Stack**
 - **Transition into a Terminal State and Emptying the Stack**

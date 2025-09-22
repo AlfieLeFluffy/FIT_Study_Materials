@@ -15,7 +15,7 @@ There are two properties that are used for selecting a algorithm based on implem
 - **Partition** - divides elements into subsets in a way that elements on are smaller then elements of the other. These are for example **Quick** sort and **Shell** sort.
 - **Merging** - orders two ordered sets into one. This is for example as **Merge** sort.
 **By processor type**:
-- **Serial** - one processor that only does one operation at one moment.
+- **Serial** - one [[Microprocessor|processor]] that only does one operation at one moment.
 - **Parallel** - can do several operations at one moment.
 **By memory access**:
 - **Direct** (random) access - the method has internal ordering such as ordering arrays.

@@ -1,3 +1,7 @@
+---
+aliases:
+  - SQL
+---
 Structured query language is used to create and resolve queries for relation databases. SQL is standardized, but the implementation of each command can differ across systems and each system can have extended functionality. The language is [[Case-Insensitive]], but SQL commands are usually written with uppercase character.
 ## Database Objects
 SQL databases use several object types such as **tables**, **view**, **index**. The are created, updated and deleted by:

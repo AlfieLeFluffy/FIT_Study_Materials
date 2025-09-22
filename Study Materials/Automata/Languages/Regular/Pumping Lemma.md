@@ -1,4 +1,4 @@
-Is a mechanism by which it can be proved that a [[Language|language]] is **NOT** [[Regular Language|regular]], so it cannot prove that one is. If **L** is a regular language, then exists **k>=1** such that:
+Is a mechanism by which it can be proved that a [[Formal Language|language]] is **NOT** [[Regular Language|regular]], so it cannot prove that one is. If **L** is a regular language, then exists **k>=1** such that:
 - if **z ∈ L** then exists **u, v, w: z = uvw**
 - **v != ε*
 * **|uv| <= k**

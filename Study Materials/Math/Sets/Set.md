@@ -1,3 +1,9 @@
+---
+tags:
+  - IDM
+aliases:
+  - set
+---
 A set is mathematical structure of **unique** (un-repeated) objects that take as a whole. A set is clearly determined by its elements and their order does not influence that. Sets can also be **empty**, **infinite** or **finite**.
 ## Element Amount
 As said before sets can be either:

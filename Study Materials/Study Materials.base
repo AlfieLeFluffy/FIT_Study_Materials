@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path.contains("Study Materials")
+    order:
+      - file.name
+      - file.tags
+      - aliases
+      - file.backlinks
+    columnSize:
+      note.aliases: 305

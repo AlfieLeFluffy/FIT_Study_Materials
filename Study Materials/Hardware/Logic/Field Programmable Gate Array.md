@@ -1,3 +1,10 @@
+---
+tags:
+  - INC
+  - INP
+aliases:
+  - FPGA
+---
 FPGA is a programable gate array that is a compromise between a fully [[Hardware (HW)]] solution such as [[Application Specific Integrated Circuit (ASIC)]], which quicker and more efficient and a fully [[Software (SW)]] solution, which has the most flexibility.
 ## Structure
 It is created with:

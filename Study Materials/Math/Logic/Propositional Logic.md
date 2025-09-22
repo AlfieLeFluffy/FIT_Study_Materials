@@ -1,6 +1,6 @@
 Propositional logic is based on a formal deductive systems from syntactic and deduction rules.
 ## Syntax
-Syntax is given by an **alphabet** and **grammar**, like in [[Language]]s.
+Syntax is given by an **alphabet** and **grammar**, like in [[Formal Language]]s.
 - **Alphabet** is an infinite set of propositional symbols (variables), logic symbols or conjunctions (**¬, ∧, ∨, →, ↔**) and logical constants (**0 and 1**). Such an alphabet can look like **X = {¬, ∧, ∨, →, ↔, (, ), 0, 1, x, y, z, ...}**
 - **Grammar** are rules how these alphabet symbols are supposed to be stringed together. **Beware** that propositional logic does not take create logic without individual **precedence of the logic symbols**.
 	- If **x** is a propositional variable **x ∈ X** then **x**, **0** and **1** are formulas.

@@ -1,0 +1,25 @@
+formulas:
+  Untitled: tags.filter("bachelors_question")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("bachelors_question")
+    order:
+      - file.name
+      - finished
+      - file.tags
+      - hints
+      - file.links
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.tags.contains("bachelors_question")
+    order:
+      - file.name
+      - file.tags
+      - hints
+    imageFit: ""
+    cardSize: 400

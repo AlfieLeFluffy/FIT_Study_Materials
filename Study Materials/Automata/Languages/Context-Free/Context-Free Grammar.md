@@ -1,3 +1,10 @@
+---
+tags:
+  - IFJ
+  - TIN
+aliases:
+  - CFG
+---
 A structural notation for describing and generating [[Context-Free Language]]. This grammar is used for describing and analysing programming languages (compiler's parser) and sets of string related to this. It is an ordered quartet **G = (T, N, P, S)**, where:
 - **T** is a final set of **terminal** symbols.
 - **N** is a final set of **non-terminal** symbols where **N ∩ T = ∅**.

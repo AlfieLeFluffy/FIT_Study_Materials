@@ -1,4 +1,4 @@
-**UML** is a standardized graphics language in software engineering used for visualization, specification, design and documentation of of systems (programs, databases, etc.). It offers standard ways of notation and supports [[Object-Oriented Programming (OOP)]] way of analysis. Its main goal is to help visualize, specify structures and behaviour of the systems. It help with decomposition of systems It allows for business processes, specific commands of a programming language, relations between class in OOP. UML diagrams are divided into three groups (ERD is not part of UML):
+**UML** is a standardized graphics language in software engineering used for visualization, specification, design and documentation of of systems (programs, databases, etc.). It offers standard ways of notation and supports [[Object-Oriented Programming]] way of analysis. Its main goal is to help visualize, specify structures and behaviour of the systems. It help with decomposition of systems It allows for business processes, specific commands of a programming language, relations between class in OOP. UML diagrams are divided into three groups (ERD is not part of UML):
 - **Structure** diagram
 - **Behaviour** diagram 
 - **Interaction** diagram
@@ -52,7 +52,7 @@ A relation between two use-cases that expand the functionality of a given use-ca
 #### Use-Case Details
 A table that can serve to add details or make a use-case more specific with conditions and event flow.
 ### Activity Diagram
-Activity diagram represents [[Object-Oriented Programming (OOP)|Object-Oriented]] **design diagram**. It allows to model:
+Activity diagram represents [[Object-Oriented Programming|Object-Oriented]] **design diagram**. It allows to model:
 - Scenarios of use-cases
 - Algorithm details and operations
 - Model businesse transactions

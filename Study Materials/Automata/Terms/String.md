@@ -1,3 +1,7 @@
+---
+aliases:
+  - string
+---
 Any sequence of terminal and non-terminal symbols.
 For alphabet **Σ**:
 - **ε** is a string over alphabet **Σ**.

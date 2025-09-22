@@ -33,7 +33,7 @@ A method by which the data on the disks can be protected against disk failure. C
 ### Solid State Drive (SSD)
 Solid state drives use a different technology from HDDs. They use arrays of non-volatile [[Flip-Flop]]s arranged into grids layered over each other. These blocks and layers are organized into what are called **pages**, where each page can have the size from 4096B to 4KB and these pages are commonly arranged into **blocks** that have typical size of 128 pages (so in total 512KB of storage). When working with SSDs we have to remember that:
 - Empty pages can be written into by themselves.
-- For rewriting a pages we need to load the entire block into [[Cache (RVP)]], make the necessary changes and then delete the original block from the SSD and write down a new one. 
+- For rewriting a pages we need to load the entire block into [[Cache]], make the necessary changes and then delete the original block from the SSD and write down a new one. 
 - This can be solved by a SSD controller that can move around and free pages and blocks without the need to load them. 
 - SSD can also have pages above the described capacity for writing down and then moving around blocks.
 ## UNIX File System
@@ -108,7 +108,7 @@ Free space can be organized and addressed through:
 - A **B+ tree** which can address through size or offset
 - By **extents**
 ## Deduplication
-**Restriction of repeated storing** of same data on either the file, extent, block byte level. This can save space for example on email servers that can receive one mail for hundreds of recipients, git repositories and so on. This can be implemented in **writing** or **additionally**, and uses cryptographic hashing for searching for a match. A problem arises once one of the shared files is updates, which requires for the file to be duplicated and one of the updated. With small duplication this can increased CPU, time or space consumption.
+**Restriction of repeated storing** of same data on either the file, extent, block byte level. This can save space for example on email servers that can receive one mail for hundreds of recipients, git repositories and so on. This can be implemented in **writing** or **additionally**, and uses cryptographic hashing for searching for a match. A problem arises once one of the shared files is updates, which requires for the file to be duplicated and one of the updated. With small duplication this can increased [[Microprocessor|CPU]], time or space consumption.
 ## Adding Disks
 A new disk and other devices can be added to any directory of an already existing file system. Today most of all [[Operating Systems]] automatically mounts disks after connecting them to the PC.
 ### Virtual File System (VFS)

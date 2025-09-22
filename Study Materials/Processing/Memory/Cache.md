@@ -1,4 +1,11 @@
-Quick buffering memory close to the processor (RVP, rychlý vyrovnávací paměť) that helps to achieve the quickest load/store times then what could be achieved only by using [[OS]] memory (RAM).
+---
+tags:
+  - INP
+aliases:
+  - RVP
+  - Quick Balancing Memory
+---
+Quick buffering memory close to the [[Microprocessor|processor]] (RVP, rychlý vyrovnávací paměť) that helps to achieve the quickest load/store times then what could be achieved only by using [[OS]] memory ([[Random Access Memory|RAM]]).
 ## Properties
 - In processors it is usually divided into several layers, such as L1 and L2 for each core and L3 shared between cores. 
 - This hierarchical division of memory tries to eliminate the differences between [[CPU]] speed and the speed of the [[OS]] memory.
@@ -28,7 +35,7 @@ There are two main ways to increase cache Hit Rates:
 With multi-path mappings there also needs to be a way to choose a sacrifice if all possible entries for a single lower address are full. This can be done through methods such as [[LRU]], [[MRU]], [[FIFO]], etc...
 
 ## Data Consistency
-When it comes to writing data into cache entries closest to the [[CPU]] it is necessary to invalidate all other lower cache entries and main memory entries to avoid from errors created by working with old data before they had the chance to get written over. This issues is important especially for multi-core processors that each have their own high cache levels (L1,L2). In this case the processor needs to invalidate data from one core's L1 cache to all other L1 caches in other cores so they are forced to reload the now new values.
+When it comes to writing data into cache entries closest to the [[CPU]] it is necessary to invalidate all other lower cache entries and main memory entries to avoid from errors created by working with old data before they had the chance to get written over. This issues is important especially for multi-core processors that each have their own high cache levels (L1,L2). In this case the [[Microprocessor|processor]] needs to invalidate data from one core's L1 cache to all other L1 caches in other cores so they are forced to reload the now new values.
 There are several methods that provide this consistency guarantee:
 - **Write-Through** (direct writing) - When a cache entry is change it is also immediately changed in the main memory. It is an easy solution to implement, but can run into issues such as if the entry is rewritten too often then the main memory can become a bottleneck. This approach can be further divided into:
 	- **Write-Through with Write Allocate** - If the written data are not in the cache then they get loaded.

@@ -1,4 +1,10 @@
-The concept of [[Interrupt]]s is inefficient when handling larger in volumes of data as the processor takes part in any data transfers during an interruption, which for data sizes is fine, but gets quite costly like for example with loading of huge files. A way to solve this is to separate the data transfer from processor so the processor can continue working on other tasks as something else handles it. That something is the Direct Memory Access Controller that can as the name implies directly access the memory without the need of the processor's attention.
+---
+tags:
+  - INP
+aliases:
+  - DMA
+---
+The concept of [[Interrupt]]s is inefficient when handling larger in volumes of data as the [[Microprocessor|processor]] takes part in any data transfers during an interruption, which for data sizes is fine, but gets quite costly like for example with loading of huge files. A way to solve this is to separate the data transfer from processor so the processor can continue working on other tasks as something else handles it. That something is the Direct Memory Access Controller that can as the name implies directly access the memory without the need of the processor's attention.
 A possible expansion of DMA is the concept of IO processor, which is a co-processor that controls peripheral devices.
 ## DMA Process
 1. The processor hands over to the DMAC (DMA Controller) an address in [[Memory]], an address of the peripheral device, type of action (read/write) and the amount of transferred [[Word]]s.

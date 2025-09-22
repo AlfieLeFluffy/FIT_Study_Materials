@@ -1,4 +1,11 @@
-**Complete Instruction Set Computing** is a complex [[Instruction]] set.
+---
+tags:
+  - INP
+  - AVS
+aliases:
+  - CISC
+---
+**Complete Instruction Set Computing** is a complex [[Instruction|instruction]] set.
 ## Common Properties
 - Many instruction types with many variants and address modes, where one instruction can combine multiple elementary (atomic) operations.
 - Typical memory-to-memory instructions, where choosing and storing the operands in memory is part of the instruction.

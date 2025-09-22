@@ -6,7 +6,7 @@ Bool's algebra is an [[Relation#Algebra|algebraic]] structure that uses only bin
 - **∨** is a **binary** operation of **union** (supremum).
 - **¬** is a **unary** operation of **complementary**.
 ### Switching Algebra
-Another term for Bool's algebra that signifies that in this system ([[Binary System]]) we are using all operations (**AND, OR, NOT**). This is the use of Bool's algebra to do calculations in the binary system.
+Another term for Bool's algebra that signifies that in this system ([[Binary Number System]]) we are using all operations (**AND, OR, NOT**). This is the use of Bool's algebra to do calculations in the binary system.
 ## Axioms
 There are several axioms:
 - **Closeness** (uzavřenost): (a ∨ b) ∈ B, (a, b) ∈ B

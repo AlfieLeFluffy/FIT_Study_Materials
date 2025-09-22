@@ -1,4 +1,4 @@
-An interrupt (or its servicing) is a mechanism, that allows the processor to create to events that are generated asynchronously. These interrupts can for example be generated through pressing a key on a key board, moving a mouse, etc. Interrupts can also be generated from inside the processor like for example division by zero. 
+An interrupt (or its servicing) is a mechanism, that allows the [[Microprocessor|processor]] to create to events that are generated asynchronously. These interrupts can for example be generated through pressing a key on a key board, moving a mouse, etc. Interrupts can also be generated from inside the processor like for example division by zero. 
 ## Interrupt Handling
 A sequence of actions is performed once an interrupt is detected:
 1. Peripheral device generates an interrupt through an electric impuls in the Interrupt Controller.

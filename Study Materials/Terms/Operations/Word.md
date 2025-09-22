@@ -1,1 +1,1 @@
-A word is a processor's natural unit of data, which is usually a fixed number of bits that is commonly **2<sup>N</sup>**.
+A word is a [[Microprocessor|processor]]'s natural unit of data, which is usually a fixed number of bits that is commonly **2<sup>N</sup>**.

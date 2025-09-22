@@ -7,9 +7,9 @@ A finite [[Automata]] is an ordered five-tuple **M = {Q, Σ, R, s, F}**, where:
 Graphically we can visualize them as:
 ![[Automata_Diagram]]
 ## Accepted Language
-If by **any string of input symbols** the automata gets into a **final state** of the machine then we say that the [[Language]] **is accepted**.
+If by **any string of input symbols** the automata gets into a **final state** of the machine then we say that the [[Formal Language]] **is accepted**.
 ## Equivalent Finite Automata
-Two models for formal languages (for example final state machines) are equivalent if they specify that **same** [[Language]].
+Two models for formal languages (for example final state machines) are equivalent if they specify that **same** [[Formal Language]].
 ## Types
 - **Non-determinable** can include **ε** transitions (rules) and there exist states in which by the **same symbol** we can move into **multiple states**.
 - **Without Epsilon Transitions** does not contain **ε** transitions (rules).

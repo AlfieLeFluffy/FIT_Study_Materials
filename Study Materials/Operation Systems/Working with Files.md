@@ -1,11 +1,11 @@
-To speed up work with files buffers ([[Cache (RVP)]]) are commonly used, that minimalize operations with slow peripherals such as [[File Systems#Storage Types| HDDs, SSDs]] or terminals. Partial caches have the size of one data block or a group and are grouped into collection of either static or dynamic length. A possible implementation of these are through [[Searching|Hash Tables]].
+To speed up work with files buffers ([[Cache]]) are commonly used, that minimalize operations with slow peripherals such as [[File Systems#Storage Types| HDDs, SSDs]] or terminals. Partial caches have the size of one data block or a group and are grouped into collection of either static or dynamic length. A possible implementation of these are through [[Searching|Hash Tables]].
 Between a process and the data on a disk there is a [[Kernel]] and buffers. To get to these buffers a has table is used, where a the entries in the table point towards the buffer blocks.
 ## Operations with Files
 ### Reading
 The procedure to read a file for the first time (is not in a buffer) is:
 1. Allocation of a buffer and loading (reading) of blocks (either the first or the asked for).
 2. Copying of desired data from the buffer into the address space of the process (RAM -> RAM).
-If the data are already in the RAM then only the second point is done. If the reading steps over into another data block then all the steps are repeated.
+If the data are already in the [[Random Access Memory|RAM]] then only the second point is done. If the reading steps over into another data block then all the steps are repeated.
 #### read()
 1. Checks validity of **fd** (file descriptor).
 2. Goes through steps 1. and 2. described above as necessary.

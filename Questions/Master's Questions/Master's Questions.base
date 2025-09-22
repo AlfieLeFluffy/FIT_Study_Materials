@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("masters_question")
+    order:
+      - file.name
+      - finished
+      - file.tags
+      - related_question
+      - hints
+      - file.links
+    columnSize:
+      file.name: 281
+      file.tags: 202

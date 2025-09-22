@@ -1,3 +1,10 @@
+---
+tags:
+  - IFJ
+  - TIN
+aliases:
+  - RG
+---
 Each **regular grammar describes a** [[Regular Language]]. It is an ordered quartet **(T, N, P, S)**, where:
 - **T** is a final set of terminal symbols.
 - **N** is a final set of non-terminal symbols.

@@ -1,3 +1,9 @@
+---
+tags:
+  - INC
+aliases:
+  - register
+---
 Registers allow to store information of a certain bit length. 
 ## Common Properties
 - They are usually realized by **D** [[Flip-Flop]].
@@ -5,7 +11,7 @@ Registers allow to store information of a certain bit length.
 - They can have asynchronous clearing through **[[CLR]]** signal and they can have an enable (control) signal **[[CE]]**.
 - Their input and output are referend to as a [[Vector]]s, D<sub>31</sub>-D<sub>0</sub> and Q<sub>31</sub>-Q<sub>0</sub> respectively.
 - It is possible to write one bit at a time, but it is not commonly done so.
-- Commonly registers represent some binary number, like for example 32-bit, 16-bit, 8-bit, that can enter other circuits like [[ALU]] as an [[Operand]].
+- Commonly registers represent some binary number, like for example 32-bit, 16-bit, 8-bit, that can enter other circuits like [[Arithmetic Logic Unit]] as an [[Operand]].
 - They are commonly used in construction of [[Study Materials/Automata/Types/Automata]]s to represent the current state.
 
 ## Memory Register (Latch)
