@@ -4,40 +4,134 @@
     "type": "split",
     "children": [
       {
-        "id": "30c607474e0f2ed0",
+        "id": "a75032ab810e4300",
         "type": "tabs",
+        "dimension": 58.35459183673469,
         "children": [
           {
-            "id": "64ff80b1966807b5",
+            "id": "a11be215257a821f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Questions/Master's Questions/Master's Questions.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Master's Questions"
+            },
+            "group": "8bee0c45a3fc639e"
+          },
+          {
+            "id": "ac3265f601859bb7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Questions/Bachelor's Questions/Bachelor's Questions.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Bachelor's Questions"
+            },
+            "group": "8bee0c45a3fc639e"
+          },
+          {
+            "id": "43d74117f5e46648",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/Bachelor's Questions/25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry..md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry."
+            }
+          },
+          {
+            "id": "25c0ff34b5f9c1b9",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "ToBeFinished.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "ToBeFinished"
+            }
+          },
+          {
+            "id": "efba7de15b6325b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Materials/Automata/Languages/Regular/Pumping Lemma.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pumping Lemma"
+            }
+          },
+          {
+            "id": "8c092066b63efbf0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Graphs/Graphs_Examples_Definition_Star.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Graphs_Examples_Definition_Star.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "25e8b644d33be7d3",
+        "type": "tabs",
+        "dimension": 41.64540816326531,
+        "children": [
+          {
+            "id": "e92348ae87253de7",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf"
+                "file": "Sources/SZZ_okruhy_all.pdf"
               },
               "pinned": true,
               "icon": "lucide-file-text",
-              "title": "Introduction_To_Automata_Theory-John_Hopcroft"
+              "title": "SZZ_okruhy_all"
             }
           },
           {
-            "id": "393daa9274d1a051",
+            "id": "d34fbf9dc5fe8b4a",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "split-diff-view",
+              "type": "pdf",
               "state": {
-                "aFile": "Questions/Bachelor's Questions/24. Numerické metody.md",
-                "bFile": "Questions/Bachelor's Questions/24. Numerické metody.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Sources/Master's Lectures/TIN_02_Regular_Languages.pdf"
               },
-              "icon": "diff",
-              "title": "Diff: 24. Numerické metody"
+              "pinned": true,
+              "icon": "lucide-file-text",
+              "title": "TIN_02_Regular_Languages"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +163,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "set",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 308.5
   },
   "right": {
     "id": "232ea24c7b8ecb6d",
@@ -110,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
+                "file": "Questions/Bachelor's Questions/23. Struktura překladače a charakteristika fází překladu.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +214,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction_To_Automata_Theory-John_Hopcroft"
+              "title": "Backlinks for 23. Struktura překladače a charakteristika fází překladu"
             }
           },
           {
@@ -129,11 +223,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Questions/Bachelor's Questions/23. Struktura překladače a charakteristika fází překladu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 23. Struktura překladače a charakteristika fází překladu"
             }
           },
           {
@@ -157,12 +252,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Questions/Bachelor's Questions/Bachelor's Questions.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Bachelor's Questions"
             }
           },
           {
@@ -175,15 +271,16 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 853.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -194,44 +291,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "393daa9274d1a051",
+  "active": "25c0ff34b5f9c1b9",
   "lastOpenFiles": [
-    "Study Materials/Math/Linear Algebra/Matrix.md",
-    "Study Materials/Automata/Types/Stack Automata.md",
-    "Study Materials/Math/Logic/Propositional Logic.md",
-    "Study Materials/Math/Logic/Predicate Logic.md",
-    "Questions/Bachelor's Questions/19. Výroková logika a predikátová logika.md",
-    "Sources/Introduction_To_Automata_Theory-John_Hopcroft.pdf",
-    "Excalidraw/Automata/Automata_Diagram.md",
-    "Excalidraw/Automata/Stack_Automata_Diagram.md",
-    "Excalidraw/Automata/Mealy_Automata.md",
-    "Study Materials/Automata/Types/Finite Automata.md",
-    "Study Materials/Automata/Types/Automata.md",
-    "Study Materials/Automata/Automata Theory.md",
-    "Study Materials/Automata/Terms/Language.md",
-    "Questions/Bachelor's Questions/3. Sekvenční logické obvody.md",
-    "Study Materials/Math/Proof/Formal Proof.md",
     "README.md",
-    "Study Materials/Automata/Chomsky Hierarchy.md",
-    "Untitled.md",
-    "bibtext_book_template.md",
-    "Study Materials/Automata/Languages/Regular/Regular Language.md",
-    "Study Materials/Automata/Terms/String.md",
-    "Study Materials/Automata/Terms/Alphabet.md",
-    "Study Materials/Automata/Languages/Regular/Pumping Lemma.md",
-    "Study Materials/Automata/Languages/Regular/Regular Expressions.md",
-    "Study Materials/Automata/Languages/Regular/Regular Grammar.md",
-    "Study Materials/Automata/Languages/Context-Free/Context-Free Grammar.md",
-    "Study Materials/Automata/Languages/Context-Free/Context-Free Language.md",
-    "Study Materials/Automata/Terms",
-    "Study Materials/Automata/Languages/Context-Free",
-    "Study Materials/Automata/Languages",
-    "Study Materials/Automata/Languages/Regular",
-    "Study Materials/Math/Proofs/Untitled",
-    "Study Materials/Math/Proof",
-    "Study Materials/Diagrams",
+    "index.md",
+    "CROSSROADS.md",
+    "Questions/Master's Questions/Master's Questions.base",
+    "Questions/Bachelor's Questions/Bachelor's Questions.base",
+    "Questions/Bachelor's Questions/40. OOP.md",
+    "Questions/Bachelor's Questions/38. Principy a struktury správy souborů a správy paměti.md",
+    "Questions/Bachelor's Questions/36. Reprezentace a uložení strukturovaných dat, serializace a deserializace, relační datový model, jazyk SQL, transakce..md",
+    "Questions/Bachelor's Questions/34. Jazyk UML.md",
+    "Questions/Bachelor's Questions/31. Pravděpodobnost a statistika.md",
+    "Questions/Bachelor's Questions/30. Vyhledávání a řazení.md",
+    "Questions/Bachelor's Questions/27. Strojové učení.md",
+    "Questions/Bachelor's Questions/25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry..md",
+    "Questions/Bachelor's Questions/24. Numerické metody.md",
+    "Questions/Bachelor's Questions/23. Struktura překladače a charakteristika fází překladu.md",
+    "Questions/Bachelor's Questions/22. Bezkontextové jazyky a jejich modely.md",
+    "Questions/Bachelor's Questions/21. Regulární jazyky a jejich modely.md",
+    "Questions/Bachelor's Questions/20. Boolovy algebry.md",
+    "Questions/Bachelor's Questions/19. Výroková logika a predikátová logika.md",
+    "Questions/Bachelor's Questions/18. Číselné soustavy a převody mezi nimi.md",
+    "Questions/Bachelor's Questions/17. Diferenciální a integrální počet funkcí jedné a více proměnných.md",
+    "Questions/Bachelor's Questions/16. Množiny, relace a zobrazení.md",
+    "Questions/Bachelor's Questions/15. Číslicové filtry.md",
+    "Questions/Bachelor's Questions/14. Spektrální analýza spojitých a diskrétních signálů.md",
+    "Questions/Bachelor's Questions/13. Principy grafických uživatelských rozhraní.md",
+    "Questions/Bachelor's Questions/12. Transformace a zobrazení 3D polygonálních modelů, principy programovatelného vykreslovacího řetězce.md",
+    "Questions/Bachelor's Questions/11. 2D vektorová grafika.md",
+    "Questions/Bachelor's Questions/10. Technologie FPGA, kroky návrhu aplikací využívajících FPGA a základy syntetizovatelného popisu hardware.md",
     "Sources/SZZ_okruhy_all.pdf",
-    "Sources/Introduction To Automata Theory_john hopcroft.pdf",
+    "Excalidraw/Graphs/Graphs_Examples_Definition_Star.excalidraw.svg",
+    "Excalidraw/Graphs/Graphs_Examples_Definition_Full_Bipartite_Graph.excalidraw.svg",
+    "Excalidraw/Graphs/Graphs_Examples_Definition_Full_Graph.excalidraw.svg",
+    "Excalidraw/Graphs/Graphs_Examples_Definition_Circle.excalidraw.svg",
+    "Excalidraw/Graphs/Graphs_Examples_Definition_Path.excalidraw.svg",
+    "Excalidraw/Graphs/Graphs_Examples_Definition.excalidraw.svg",
+    "Sources/Master's Lectures/TIN_02_Regular_Languages.pdf",
+    "Sources/Master's Lectures/TIN_01_Introduction_and_Formal_Language.pdf",
+    "Sources/Master's Lectures/TIN_01_Regular_Languages.pdf",
+    "Excalidraw/Graphs",
+    "Study Materials/Math/Graph Theory",
+    "ToBeFinished.base",
+    "Study Materials/Study Materials.base",
     "Study Materials/Processing/Untitled.canvas",
     "Untitled.canvas"
   ]
