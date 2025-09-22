@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("to_be_finished")
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+      - file.folder
+      - file.tags
+    columnSize:
+      file.name: 190
+      file.ctime: 150
+      file.mtime: 152
