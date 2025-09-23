@@ -1,3 +1,12 @@
+---
+tags:
+  - INP
+  - INC
+  - ISO
+  - IAL
+aliases:
+  - memory
+---
 **Memory** stores data and allows to (re)write and or read it later.
 
 ## Types
