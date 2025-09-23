@@ -4,4 +4,4 @@ Is a computer architecture that utilizes:
 - Can use **different size of cells** in memory, such as 8 bits for data and 18 bits for instructions.
 - Allows to load [[Instruction|instruction]] and data in one tick.
 - Is quicker then [[Von Neuman Architecture]].
-![[Harvard_Acrhitecture_Diagram]]
+![[Harvard_Acrhitecture_Diagram.excalidraw.svg]]

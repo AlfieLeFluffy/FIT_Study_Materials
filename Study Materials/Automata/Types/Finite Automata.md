@@ -5,7 +5,7 @@ A finite [[Automata]] is an ordered five-tuple **M = {Q, Σ, R, s, F}**, where:
 - **s ∈ Q** and is the **starting state**.
 - **F ⊆ Q** and is the **set of terminal states**.
 Graphically we can visualize them as:
-![[Automata_Diagram]]
+![[Automata_Diagram.excalidraw.svg]]
 ## Accepted Language
 If by **any string of input symbols** the automata gets into a **final state** of the machine then we say that the [[Formal Language]] **is accepted**.
 ## Equivalent Finite Automata

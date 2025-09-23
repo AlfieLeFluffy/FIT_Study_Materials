@@ -13,10 +13,8 @@ Registers allow to store information of a certain bit length.
 - It is possible to write one bit at a time, but it is not commonly done so.
 - Commonly registers represent some binary number, like for example 32-bit, 16-bit, 8-bit, that can enter other circuits like [[Arithmetic Logic Unit]] as an [[Operand]].
 - They are commonly used in construction of [[Study Materials/Automata/Types/Automata]]s to represent the current state.
-
 ## Memory Register (Latch)
 Basic memory register that stores bits, usually some variation of 2<sup>N</sup> number.
-
 ## Shift Register
 Synchronous circuit using [[CLK]] made out of [[Flip-Flop]]s configured in a series. In operation they move one bit of information to left or right with every [[CLK]] impuls. They have a Data in input and Data out output on the ends of the register space, arranged depending on what direction the counter should be counting in.
 There exists several types and common uses for shift registers such as:
@@ -25,6 +23,5 @@ There exists several types and common uses for shift registers such as:
 - Data buffer for [[Universal Asynchronous Reciever-Transmiter (UART)]] for receiving data
 - Storing [[Operand]] values
 - Sequential [[Adders]]
-
 ## Diagram of Common Registers
-![[Registers_Diagram]]
+![[Registers_Diagram.excalidraw.svg]]

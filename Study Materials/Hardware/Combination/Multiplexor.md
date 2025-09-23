@@ -3,7 +3,7 @@ A multiplexor is a [[Combination Circuit]] that can choose one input of **2<sup>
 
 Multiplexors are created with logic gates and can be configured in many ways and technically do not have a limit to their size.
 
-- 2-1 Multiplexor created with NOT, AND and OR: ![[2_To_1_Multiplexor_NOT_AND_OR]]
-- 2-1 Multiplexor created with only a NAND: ![[2_To_1_Multiplexor_NAND]]
-- 4-1 Multiplexor created with NOT, AND and OR: ![[4_To_1_Multiplexor_NOT_AND_OR]]
-- 4-1 Multiplexor created in diagram form: ![[4_To_1_Multiplexor_Diagram]]
+- 2-1 Multiplexor created with NOT, AND and OR: ![[2_To_1_Multiplexor_NOT_AND_OR.excalidraw.svg]]
+- 2-1 Multiplexor created with only a NAND: ![[2_To_1_Multiplexor_NAND.excalidraw.svg]]
+- 4-1 Multiplexor created with NOT, AND and OR: ![[4_To_1_Multiplexor_NOT_AND_OR.excalidraw.svg]]
+- 4-1 Multiplexor created in diagram form: ![[4_To_1_Multiplexor_Diagram.excalidraw.svg]]

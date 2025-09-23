@@ -1,14 +1,14 @@
 Binary counters are combination circuits that add two binary numbers together.
 
 ## Half Adder
-Realizes the addition of two one bit binary numbers (**A** and **B**) and outputs their sum (**S**) and carry (**C**). Half adder cannot take a carry input from a lower order. ![[Half_Adder]]
+Realizes the addition of two one bit binary numbers (**A** and **B**) and outputs their sum (**S**) and carry (**C**). Half adder cannot take a carry input from a lower order. ![[Half_Adder.excalidraw.svg]]
 ## Full Adder
-Realizes the addition of three one bit binary numbers (**A**, **B** and **Cin**) and outputs their sum (**S**) and carry (**Cout**). Full adder can take a carry from a lower order and outputs its own carry. Technically the full adder is created by combining two half adders with an OR gate for both carries. ![[Full_Adder]]
+Realizes the addition of three one bit binary numbers (**A**, **B** and **Cin**) and outputs their sum (**S**) and carry (**Cout**). Full adder can take a carry from a lower order and outputs its own carry. Technically the full adder is created by combining two half adders with an OR gate for both carries. ![[Full_Adder.excalidraw.svg]]
 ## Ripple Carry Adder
 Is created by connecting several full adders in a series so they can propagate their carry over to the next full adder. It is a pseudo-paraler adder, where the carry sequentially carries over through out the adder, which quite a slow process and only gets worse with the number of inputs.
-Every carry bit has a delay of 3 logic gates and the sum has delay of 2 logic gates. From this we can say that the entire delay of this circuit is **S_i = 3\*(i-1) + 2 = 3\*i -1**. ![[Ripple_Carry_Adder]]
+Every carry bit has a delay of 3 logic gates and the sum has delay of 2 logic gates. From this we can say that the entire delay of this circuit is **S_i = 3\*(i-1) + 2 = 3\*i -1**. ![[Ripple_Carry_Adder.excalidraw.svg]]
 ## Carry Select Adder
-An expanded and quicker version of the Ripple Carry Adder that calculates possible carries in advance and then as the first Ripple Carry Adders finish work then the propagation of carry is not done through the adders but through multiplexors, choosing which future was correct depending on the outcome of the previous carry output. This way all of the additions take at max **S = 4 * 3 - 1 = 11** and then delays of the all the multiplexors on the way with each multiplexor taking 3 logic gate. ![[Carry_Select_Adder]]
+An expanded and quicker version of the Ripple Carry Adder that calculates possible carries in advance and then as the first Ripple Carry Adders finish work then the propagation of carry is not done through the adders but through multiplexors, choosing which future was correct depending on the outcome of the previous carry output. This way all of the additions take at max **S = 4 * 3 - 1 = 11** and then delays of the all the multiplexors on the way with each multiplexor taking 3 logic gate. ![[Carry_Select_Adder.excalidraw.svg]]
 ## Carry Lookahead Adder
 It is quicker then the Ripple Carry Adder and can be quicker then Carry Selection Adder. It functions in paralel and technically two binary numbers of any size can be added together with only a 4 logic gate delay with the carry calculations taking only 3.
 In reality the size of the numbers is limited by the size of multi input logic gates with the equivalent delay to gates that have only inputs. It is impractical to calculate huge numbers in one go with this or any other Adder and so these calculations are usually segmented.
@@ -36,7 +36,7 @@ From this we can assume that to calculate C<sub>i</sub> we need three logic gate
 To calculate the sum of given order S<sub>i</sub> we can use:
 - ( ( A<sub>i</sub> xor B<sub>i</sub> ) xor C<sub>i</sub> )
 This means that the the final calculation is going to be one logic gate longer, so in total delay of 4 logic gates.
-![[Carry_Lookahead_Adder]]
+![[Carry_Lookahead_Adder.excalidraw.svg]]
 ## Multibit adders with the use of 4-bit CLA
 The 4-bit (and other) Carry Lookahead adders can be chained together using the Carry Lookahead outputs PG and GG.
 - PG = P<sub>0</sub> + P<sub>1</sub> + P<sub>2</sub> + P<sub>3</sub>

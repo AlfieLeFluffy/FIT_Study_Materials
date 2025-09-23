@@ -38,7 +38,7 @@ There are several axioms:
 	- **∧ is AND**, **∨ is OR**, **¬ is NOT**
 ## Functions
 There are **2^2^2 functions** (16) that can be realized over Bool's algebra. So of these are mapped onto numbers, but they can be also described as with their corresponding symbols in this diagram:
-![[Logic_Gates_Diagram]]
+![[Logic_Gates_Diagram.excalidraw.svg]]
 ### NOT
 Negation or Complement
 

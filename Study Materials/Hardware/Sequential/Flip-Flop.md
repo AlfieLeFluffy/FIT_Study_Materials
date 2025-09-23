@@ -4,11 +4,11 @@ Flip-flops (klopný obvod) are the simplest sequence circuits. They react in **l
 - **Monostable** have only one stable state. They are sequence circuits that generate a puls on start-up. They can be through of as a bowl to which can thrown one ball and can be used for timers.
 - **Bistable** (flip-flop) are the most commonly used type of flip-flops and have to stable states, between which can be switched (0 -> 1, 1 -> 0). They are the base for Volatile [[Memory]], such as [[Register]], operand memory, [[Counter]], etc...
 - **Schmitt's** (Schmittovy) are used to change the shape of impulses. Their basic property is # Hysteresis. Their output is dependent on the value of the input and of its original value. 
-
 ## Bistable Flip-Flops
 There are many types of bistable flip-flops and here are the highlights:
 ### SET flip-flop
-Extremely simple, but practically unusable. Once its in log. 1 it cannot be flopped back to 0. It produces a Moor's output. ![[SET_Flip-Flop]]
+Extremely simple, but practically unusable. Once its in log. 1 it cannot be flopped back to 0. It produces a Moor's output. 
+![[SET_Flip-Flop.excalidraw.svg]]
 ### R-S flip-flop (reset-set)
 Setting log. 1 to the R (reset) input sets the output to log. 0.
 Setting log. 1 to the S (sest) input sets the output to log. 1.
@@ -20,23 +20,22 @@ If both inputs are set to 1 then it results in a forbidden combination that prev
 | 0   | 1   | 1               |
 | 1   | 0   | 0               |
 | 1   | 1   | X               |
-![[R-S_Flip-Flop]]
+![[R-S_Flip-Flop.excalidraw.svg]]
 ### R-S flip-flop with enabling input (reset-set)
 The same flip-flop as classical R-S, but with an additional input of C (Control, Enable), that enables the flip-flop to change state. The flip-flop state can only be changed when the input C is active, which depending on the design can be either in log. 0 or in log. 1.
-![[R-S_Flip-Flop_With_Control]]
+![[R-S_Flip-Flop_With_Control.excalidraw.svg]]
 ### J-K flip-flop
 In this flip-flop the input **K** corresponds to **S** and input **J** corresponds to **R** and includes feedback, which eliminates the forbidden combinations. In case both inputs are in log. 1, the flip-flop toggles the current state of the output.
-![[J-K_Flip-Flop]]
+![[J-K_Flip-Flop.excalidraw.svg]]
 ### T flip-flop (toggle)
 This flip-flop is just the J-K flip-flop with on input instead of two.
-![[T_Flip-Flop]]
+![[T_Flip-Flop.excalidraw.svg]]
 ### D flip-flop
 It is a R-S flip-flop with one input D instead of two and negation in front of the R input.
-![[D_Flip-Flop]]
+![[D_Flip-Flop.excalidraw.svg]]
 ### D flip-flop with enabling input
 Same as D flip-flop just with an enabling (control) input.
-![[D_Flip-Flop_With_Control]]
-
+![[D_Flip-Flop_With_Control.excalidraw.svg]]
 ## Two-phase Bistable Flip-Flops
 They are used within synchronous circuits that are driven by a clock signal (CLK). They can be either of type Master-Slave or Derivation.
 - **Master-Slave** flip-flops change their output state either on while CLK is in log. 0 or log. 1. Importantly Master flip-flop is active in one phase of CLK like for example in log. 0 and Slave flip-flop is active only in the other phase of CLK like for example in log. 1. These can be done in sorts of types such as R-S, J-K, T, D, etc...

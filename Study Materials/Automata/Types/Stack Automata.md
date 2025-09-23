@@ -8,7 +8,7 @@ Is a [[Finite Automata]] that is expanded with a **pushdown stack**. For every [
 - **F** is a **set of terminal states**.
 Interpretation of the rules **Apa ->wq ∈ R** is that **p** is the current state, **a** is the current input symbol, **A** is the current symbol at the top of the stack, and so for **Apa** we can go into state **q** that will change the top of the stack from **A** to **w**, where **w** can be any combination of accepted symbols for the stack.
 To visualize this we can use the same notation as for [[Finite Automata]], but updated with a new transition notation such as:
-![[Stack_Automata_Diagram]]
+![[Stack_Automata_Diagram.excalidraw.svg]]
 ## Types of Accepted Languages
 A [[Formal Language]] is accepted by this type of automata if either:
 - **Transition into a Terminal State**

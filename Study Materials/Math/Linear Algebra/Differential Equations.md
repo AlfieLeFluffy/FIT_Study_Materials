@@ -16,7 +16,7 @@ Another graphical example can be for the equation:
 $$
 y[n] = 4x[n] + \frac{1}{6}y[n-1] + \frac{1}{6}y[n-2]
 $$
-![[Differential_System_Example_1]]
+![[Differential_System_Example_1.excalidraw.svg]]
 Examples of a low pass filter:
 $$
 y[n] = \frac{1}{6} (x[n] + x[n-1] + x[n-2] + x[n-3] + x[n-4] + x[n-5])
