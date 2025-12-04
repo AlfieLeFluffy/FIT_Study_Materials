@@ -14,9 +14,9 @@
 - 14. Neuronové sítě pro strukturovaná data (konvoluční a rekurentní sítě, motivace, základní vlastnosti, použití).
 - 15. Prohledávání stavového prostoru (informované a neinformované metody, lokální prohledávání, prohledávání v nejistém prostředí, hraní sekvenčních her, CSP úlohy).
 - [[16. Postrelační a rozšířené relační databáze.]]
-- 17. NoSQL databáze (porovnání relačních a NoSQL; CAP věta a ACID/BASE principy; typy NoSQL databází; dotazování v NoSQL databázích; agregace dat pomocí Map-Reduce a agregační pipeline).
+- [[17. NoSQL databáze]]
 - 18. Porozumění datům a jejich příprava pro data mining (důvody a cíle; popisné charakteristiky dat a vizualizační techniky; korelační analýza; metody čištění; redukce dat a řešení nevyváženosti; normalizace dat).
-- 19. Ontologie a sémantický web (linked data, datový model RDF, ontologie, RDF schema a OWL, strukturovaná data na WWW).
+- [[19. Ontologie a sémantický web]]
 - 20. Prostorové databáze, indexace (nejen) v prostorových DB (problematika mapování prostoru, kD-Tree a Grid File vč. jejich variant a R-Tree).
 - 21. Konceptuální model funkčnosti aplikace nebo služby, jeho testování, návrh.
 - 22. Návrh zaměřený na uživatele (User Centered Design, UCD) – proces, testování, pojmy.
@@ -39,7 +39,7 @@
 - 39. Vícevýběrové testy, testy o rozdělení, testy dobré shody.
 - 40. Regresní analýza.
 - [[41. Markovské řetězce a základní techniky pro jejich analýzu.]]
-- 42. Randomizované algoritmy (Monte Carlo a Las Vegas algoritmy)
+- [[42. Randomizované algoritmy]]
 - [[43. Grafická knihovna OpenGL vykreslovací řetězec, frame buffer, stencil buffer.]]
 - 44. Principy vykreslování: Object Order, Image Order, Global Illumination. Typické metody v každé trídě algoritmů – jejich základní a pokročilé podoby.
 - 45. Afinní 3D transformace, kamera, projekce, skládání transformací.
