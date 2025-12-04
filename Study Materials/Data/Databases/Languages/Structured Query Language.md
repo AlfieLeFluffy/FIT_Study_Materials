@@ -1,4 +1,7 @@
 ---
+tags:
+  - IDS
+  - UPA
 aliases:
   - SQL
 ---

@@ -1,3 +1,11 @@
+---
+tags:
+  - IDS
+  - UPA
+aliases:
+  - relation data model
+  - RDM
+---
 Relation databases are based upon definition of sets, Cartesian multiplication and relations, as they are known from math. Relations are a subset of a Cartesian multiplication and in case of relation databases we understand them as tables. A specific table is made out a **scheme of relations** (table header, names of the columns) and a **relation body** (represent stored data in a table in rows). We can say that the amount of attributes in a relation is a level (order) of the relation, cardinality of the body (number of rows) we can signify as a cardinality of the relation. The fact we use **relation model** and **relation databases** is derived from the fact that relation is the basic abstracted term of the model and the only structure of a database on a logical level.
 ## Model Terms
 - **Domain** is a set of scalar values of the same type that an atribute can become.
