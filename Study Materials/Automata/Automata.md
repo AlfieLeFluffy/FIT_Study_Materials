@@ -1,11 +1,18 @@
-Automata (konečný automat KA) is an ordered sextuplet **M = (S, Σ, Λ, T, G, s<sub>0</sub>)**, where each element represents:
+---
+tags:
+  - IFJ
+  - TIN
+---
+## Definition
+Automata is an ordered sextuplet **M = (S, Σ, Λ, T, G, s<sub>0</sub>)**, where each element represents:
 - **S** is a finite non-empty set of states (internal alfabet)
 - **Σ** is a finite input [[Alphabet]]
 - **Λ** is a finite output [[Alphabet]]
 - **T** is a state change function (T: S * Σ -> S, which means that for a state there can be a input character in the input alfabet that changes the state to another or the same state)
 - **G** is the output (final state) function (G: S * Σ -> Λ for Mealy SM and G: S -> Λ  for Moor's SM)
 - **s<sub>0</sub>** is the starting state and s<sub>0</sub> ∈ S (is part of the internal alfabet)
-
+## Accepted Language
+If by **all [[Word|word]] of a [[Formal Language|language]] comprised of symbols of Σ** the automata gets into a **final state** then we say that the [[Formal Language|language]] **is accepted**.
 ## Electronic Elements
 There are there many components a state machine must have:
 - **Next-state logic** (transition function) is combinatory logic circuit responsible for changing the current state to a new state based on the current memory (state) and the input.

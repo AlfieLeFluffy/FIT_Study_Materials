@@ -1,3 +1,11 @@
+---
+tags:
+  - IFJ
+  - TIN
+aliases:
+  - finite automata
+---
+## Definition
 A finite [[Automata]] is an ordered five-tuple **M = {Q, Σ, R, s, F}**, where:
 - **Q** is the **finites set of states**.
 -  **Σ** is the **input** [[Alphabet]].
@@ -6,8 +14,6 @@ A finite [[Automata]] is an ordered five-tuple **M = {Q, Σ, R, s, F}**, where:
 - **F ⊆ Q** and is the **set of terminal states**.
 Graphically we can visualize them as:
 ![[Automata_Diagram.excalidraw.svg]]
-## Accepted Language
-If by **any string of input symbols** the automata gets into a **final state** of the machine then we say that the [[Formal Language]] **is accepted**.
 ## Equivalent Finite Automata
 Two models for formal languages (for example final state machines) are equivalent if they specify that **same** [[Formal Language]].
 ## Types

@@ -1,3 +1,8 @@
+---
+tags:
+  - IFJ
+  - TIN
+---
 The Chomsky hierarchy is part of the **formal language theory** that classes formal grammar into types (levels). Each types includes the formal grammars of the previous level.
 ## Types
 
@@ -8,5 +13,5 @@ The Chomsky hierarchy is part of the **formal language theory** that classes for
 | **Type-1** | [[Context-Sensitive Grammar]] | [[Context-Sensitive Language]]      |
 | **Type-0** | [[Unrestricted Grammar]]      | [[Recursively Enumerable Language]] |
 
-## Sources
+### Sources
 [Chomsky hierarchy - Wikipedia](https://en.wikipedia.org/wiki/Chomsky_hierarchy)

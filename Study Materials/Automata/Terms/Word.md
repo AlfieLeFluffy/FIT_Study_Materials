@@ -1,6 +1,11 @@
 ---
 aliases:
+  - word
+  - String
   - string
+tags:
+  - IFJ
+  - TIN
 ---
 Any sequence of terminal and non-terminal symbols.
 For alphabet **Σ**:

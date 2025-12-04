@@ -1,1 +1,8 @@
+---
+tags:
+  - IFJ
+  - TIN
+aliases:
+  - alphabet
+---
 It is a **finite non-empty [[Set|set]]** of element that are called **symbols**.
