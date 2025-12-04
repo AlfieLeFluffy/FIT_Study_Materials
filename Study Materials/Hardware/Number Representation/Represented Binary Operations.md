@@ -1,12 +1,12 @@
 These operations use either [[Whole Number Representation]] or [[Decimal Number Representation]].
 ## Addition
 ### Whole Numbers
-Addition of whole numbers is done the same way as is done in the [[Decadic System]], but it is possible the number overflows.
+Addition of whole numbers is done the same way as is done in the [[Decadic Number System]], but it is possible the number overflows.
 ### Floating Point
 Floating point addition is not associative as a result of rounding error. In IEEE754 the numbers first need to be put to the same exponent. The number with the lower exponent is always transformed to the higher exponent.
 ## Subtraction
 ### Whole Numbers
-In the processor this is realized by negating one of the [[Operand]]s and settings C<sub>0</sub> to one, practically converting the number into [[Whole Number Representation#Two's complement (dvojkový doplňkový) code|Two's Complement]]. This is also more natural for humans to calculate.
+In the [[Microprocessor|processor]] this is realized by negating one of the [[Operand]]s and settings C<sub>0</sub> to one, practically converting the number into [[Whole Number Representation#Two's complement (dvojkový doplňkový) code|Two's Complement]]. This is also more natural for humans to calculate.
 ### Floating Point
 Floating point addition is not associative as a result of rounding error. In IEEE754 the numbers first need to be put to the same exponent. The number with the lower exponent is always transformed to the higher exponent.
 ## Multiplication
