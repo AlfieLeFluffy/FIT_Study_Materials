@@ -23,9 +23,10 @@
 - [[23. Struktura překladače a charakteristika fází překladu]]
 - [[24. Numerické metody]]
 - [[25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry.]]
-- ...
+- [[26. Řešení úloh]]
 - [[27. Strojové učení]]
-- ...
+- [[28. Principy modelování a simulace systémů]]
+- [[29. Datové a řídicí struktury imperativních programovacích jazyků]]
 - [[30. Vyhledávání a řazení]]
 - [[31. Pravděpodobnost a statistika]]
 - ...
