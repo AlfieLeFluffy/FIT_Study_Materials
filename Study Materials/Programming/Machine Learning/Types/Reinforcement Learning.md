@@ -1,4 +1,10 @@
-**Reinforced Learning** is different from [[Learning with a Teacher]] in that the evaluation of the actions is based on **penalization** and **rewarding** of correct and wrong end states and on the evaluations of previous walks gained from experience.
+---
+tags:
+  - IUS
+aliases:
+  - reinforcement learning
+---
+**Reinforcement Learning** is different from [[Supervised Learning]] in that the evaluation of the actions is based on **penalization** and **rewarding** of correct and wrong end states and on the evaluations of previous walks gained from experience.
 ## Algorithms
 ### Policy-Only Learning
 The princip of this algorithm is based on that in **each node of a graph** there are at **max 2 ways** (edges). Each node contains a **box with stones** of two colours: **white** and **black** (each corresponds to one way and their ration realizes probability of choosing one outcome). At the beginning of the algorithm each node has the same amount of both stones (and enough of them). Learning then comes from doing random walks through the graph (space) and if the end of the walk is:
