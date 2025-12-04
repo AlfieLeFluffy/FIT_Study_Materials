@@ -3,7 +3,7 @@
 - **Behaviour** diagram 
 - **Interaction** diagram
 ## Structure Diagram
-Structure diagram describes a system and what it is made of. It represents the **static aspects** of a system. It highlights parts and components, that must be part of the modelled system. They are commonly used in documentation to describe a [[Software (SW)]] **system architecture**. Diagram components for example describes how software systems are divided into components and shows the relation between them.
+Structure diagram describes a system and what it is made of. It represents the **static aspects** of a system. It highlights parts and components, that must be part of the modelled system. They are commonly used in documentation to describe a [[Software]] **system architecture**. Diagram components for example describes how software systems are divided into components and shows the relation between them.
 ### Class Diagram
 A class diagram describes **classes** and **static relations** between them. It describes a system's static structure and highlights data structures. Each class is made up of its **name**, **a list of attributes** and **a list of methods**. Attributes and methods have their state visibility (+ public, - private, \# protected), attributes, types, input parameters and output types. Class diagram is described in a model space.
 #### Multiplicity
@@ -32,7 +32,7 @@ Component diagram shows how larger components of a system relations between each
 Group diagram allows to group together semantically relevant elements and encapsulate a name space. For example classes that handle communication can be all grouped into one package.
 
 ## Behaviour Diagram
-Behaviour diagrams describe how a certain system behaves or how the system works. These diagrams are a **dynamic**  aspects of the system. The highlight what can happen in a model space. They are commonly used to describe functionality of a [[Software (SW)]] system. Use-Case diagrams can for example show how a user in a certain role and the actions they have at their disposal.
+Behaviour diagrams describe how a certain system behaves or how the system works. These diagrams are a **dynamic**  aspects of the system. The highlight what can happen in a model space. They are commonly used to describe functionality of a [[Software]] system. Use-Case diagrams can for example show how a user in a certain role and the actions they have at their disposal.
 ### Use-Case Diagram
 Diagram describes possible participants in the system as roles and what actions or functions they can do with the system. Some development strategies such as Use-Case driven development can use these as a basis for a system. The diagram is made of:
 - **System Borders**
@@ -71,7 +71,7 @@ There diagram allow to model:
 - Iterations
 - Parallel flows
 ### State Diagram
-State diagrams allow the modelling of a life cycle of one reactive object. It is a special case of [[Study Materials/Automata/Types/Automata]]. They can also model dynamic behaviour of classes, systems, sub-systems, etc. They are comprised of:
+State diagrams allow the modelling of a life cycle of one reactive object. It is a special case of [[Automata]]. They can also model dynamic behaviour of classes, systems, sub-systems, etc. They are comprised of:
 - **States**
 - **Transitions (Edges)**
 - **Events** can be condition in which a state changes. They can be part of the state.

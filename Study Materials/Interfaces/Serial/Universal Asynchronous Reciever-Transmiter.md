@@ -1,3 +1,9 @@
+---
+tags:
+  - IMP
+aliases:
+  - UART
+---
 As the name implies this is a **asynchronous** [[Serial Interface]].
 ## Properties
 - UART communication is usually [[Full-Duplex]], but can also be a [[Half-Duplex]] or just a [[Simplex]].

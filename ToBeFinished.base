@@ -10,6 +10,9 @@ views:
       - file.mtime
       - file.folder
       - file.tags
+    sort:
+      - property: file.mtime
+        direction: DESC
     columnSize:
       file.name: 190
       file.ctime: 150

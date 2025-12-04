@@ -1,3 +1,9 @@
+---
+tags:
+  - IAL
+aliases:
+  - matrix
+---
 A matrix is a mathematical construct (notation) that is simplifies the notation of equations. It is used to solve linear equations.
 ## Types
 ### Square

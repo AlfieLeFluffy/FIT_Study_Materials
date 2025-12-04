@@ -7,9 +7,9 @@ Number systems are a way of representing numbers. We divide these system into tw
 - **Non-positional**
 - **Positional**
 ## Non-positional Number Systems
-Non-positional systems are systems in which the position of the symbols representing the number are not dependent on their position within the number [[String|string]]. An example of such system is [[Roman Number System]].
+Non-positional systems are systems in which the position of the symbols representing the number are not dependent on their position within the number [[Study Materials/Automata/Terms/Word|string]]. An example of such system is [[Roman Number System]].
 ## Positional Number Systems
-Positional systems are system in which the position of the symbols in representing the number are dependent on their position within the number [[String|string]]. These system are most common nowadays. All positional system **require a symbol for zero**. These system also support fractional (decimal) numbers, which are usually separated by some special character like a dot. Examples of such system are [[Decadic Number System]], [[Binary Number System]], etc.
+Positional systems are system in which the position of the symbols in representing the number are dependent on their position within the number [[Study Materials/Automata/Terms/Word|string]]. These system are most common nowadays. All positional system **require a symbol for zero**. These system also support fractional (decimal) numbers, which are usually separated by some special character like a dot. Examples of such system are [[Decadic Number System]], [[Binary Number System]], etc.
 ### Base (Radix)
 A number defining the maximum amount o numeric symbols that are available in a system. These are for example $r=10$ for [[Decadic Number System|Decadic System]] and $r=2$ for [[Binary Number System|Binary System]].
 ### Conversion between Positional Systems

@@ -1,6 +1,6 @@
 ---
 tags:
-  - IAL
+  - IPP
 aliases:
-  - vector
+  - OOP
 ---

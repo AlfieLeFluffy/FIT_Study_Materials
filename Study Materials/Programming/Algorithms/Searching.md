@@ -27,10 +27,10 @@ Access to the elements of a set can be random.
 	- **Explicit** chaining uses some kind of structure to represent synonyms, which is linked in the row to which they are mapped.
 	- **Implicit** chaining uses the next lines in the table to store the synonyms.
 ### Searching in Text
-Searching in text is usually done to locate a sub-text (sub-string) in a larger piece of text. There are two main ways of doing this, either through algorithms or [[Study Materials/Automata/Types/Automata]]:
+Searching in text is usually done to locate a sub-text (sub-string) in a larger piece of text. There are two main ways of doing this, either through algorithms or [[Automata]]:
 - **Naive (Brute-Force) Algorithm** checks each symbol of the text again the searched text from left to right, if the characters do not match then it moves one character to the right and starts over. 
 	- It has the worst complexity of these algorithms at [[Time and Space Complexity|O(n * m)]], where **n** is the size of the text and **m** is the size of the searched text.
-- **Knuth-Moris-Pratt Algorithm** uses a [[Study Materials/Automata/Types/Automata]] and still checks the text from left to right. If there is a miss-match then it does not return back in the text, but tries to shift the sample back until it matches again and then resumes. 
+- **Knuth-Moris-Pratt Algorithm** uses a [[Automata]] and still checks the text from left to right. If there is a miss-match then it does not return back in the text, but tries to shift the sample back until it matches again and then resumes. 
 	- It has the complexity of  [[Time and Space Complexity|O(n + m)]], where **n** is the size of the text and **m** is the size of the searched text.
 - **Boyer-Moore Algorithm** still moves the sample over the text from left to right, but checks for the match from right to left, which means it can skip over and not even check some characters as the result still would not be a match.
 - **Rabin-Karp Algorithm** uses hashing to search for the substring. It calculates the hash for the sample and moves through the text calculating a hash of the text in the same length as the sample and checks if they match. This relies on how quickly we can calculate hashes, but we can use hash function that allows for addition/subtraction of values of one element of the hashed text, so instead of calculating the entire hash for all possible combinations, we start with one hash calculation and then alter it as we go along.

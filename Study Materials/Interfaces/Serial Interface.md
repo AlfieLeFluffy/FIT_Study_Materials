@@ -4,7 +4,7 @@ There are two main types of serial communication by [[Synchronisty]]:
 ![[Synchronisty]]
 
 ## Used Interfaces
-![[Universal Asynchronous Reciever-Transmiter (UART)]]
+![[Universal Asynchronous Reciever-Transmiter]]
 
 ![[Serial Peripheral Interface (SPI)]]
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - IAL
+  - AVS
 aliases:
-  - vector
+  - SW
 ---

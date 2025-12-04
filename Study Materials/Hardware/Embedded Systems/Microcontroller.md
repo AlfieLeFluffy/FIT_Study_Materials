@@ -33,4 +33,4 @@ Most MCUs also provide some common peripheries:
 - [[Interrupt Controller]]
 - **Sensors**
 ## Communications
-For communication MCUs use one or more interfaces which are either [[Serial Interface|Serial]] or [[Parallel Interface|Parallel]]. Amongst the most common once are [[Universal Asynchronous Reciever-Transmiter (UART)]], [[Serial Peripheral Interface (SPI)]], [[Inter-Integrated Circuit (I2C)]], etc.
+For communication MCUs use one or more interfaces which are either [[Serial Interface|Serial]] or [[Parallel Interface|Parallel]]. Amongst the most common once are [[Universal Asynchronous Reciever-Transmiter]], [[Serial Peripheral Interface (SPI)]], [[Inter-Integrated Circuit (I2C)]], etc.
