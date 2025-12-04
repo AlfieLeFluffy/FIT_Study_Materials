@@ -28,7 +28,7 @@ This version does not require testing for edges on each line of the polygon. The
 ### Evaluation
 The algorithm fixes some of the issues with the normal Scanline, but is overall more complex.
 ## Pined Algorithm
-Works only with **Convex** polygons like triangles, which are always convex. It allows for easy realization in [[Hardware (HW)]]. The area is described by the list of edges.
+Works only with **Convex** polygons like triangles, which are always convex. It allows for easy realization in [[Hardware]]. The area is described by the list of edges.
 ### Princip
 - The area gets divided into two halves, one for positive and one for negative for each edge. This is usually done through a function to which when we would add the coordinates of a pixel it would return either a positive or a negative number.
 - Coloured in are all pixel that are in the positive areas of all edges. If all the edge functions return a positive number for a given point.

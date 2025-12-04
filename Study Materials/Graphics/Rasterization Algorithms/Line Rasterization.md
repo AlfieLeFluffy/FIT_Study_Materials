@@ -9,7 +9,7 @@ Uses floating point arithmetic.
 ## DDA With Fixed Point Arithmetic
 Eliminates the need for floating point arithmetic by doing a bit shift (`y1 << FRAC_BITS`) for both the Y axis value and the size of the directive equation and then does an inverse bit shift (`y1 >> FRAC_BITS`)once writing pixels. Otherwise the algorithm function exactly like DDA. 
 ## Midpoint (Brenham) Algorithm
-Uses whole number arithmetic, which is easier for [[Hardware (HW)]] implementation, which is why is the most common algorithm today. 
+Uses whole number arithmetic, which is easier for [[Hardware]] implementation, which is why is the most common algorithm today. 
 ### Princip
 - Generates a line from point P<sub>1</sub> to P<sub>2</sub>.
 - In the X axis the algorithm increments with **dx = 1**.

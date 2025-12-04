@@ -1,4 +1,4 @@
-To display a 3D object we usually use a 2D plane through a process called **projection** (transformation of 3D to 2D, which means loss of data). The display (window) then become a **viewport**. To project an object we use so called **projection rays**. In computer graphics we most often use triangles to rasterize 3D objects as they are convex and their calculations can accelerate rather well in [[Hardware (HW)]].
+To display a 3D object we usually use a 2D plane through a process called **projection** (transformation of 3D to 2D, which means loss of data). The display (window) then become a **viewport**. To project an object we use so called **projection rays**. In computer graphics we most often use triangles to rasterize 3D objects as they are convex and their calculations can accelerate rather well in [[Hardware]].
 ## Components of a 3D Scene
 - **Near Clip Plane** defines the minimal distance an object has to be away from the camera (minimal depth) in order for the camera to render it.
 - **Far Clip Plane** defines the maximum distance an object has to be away from the camera (maximum depth) in order for the camera to render it.

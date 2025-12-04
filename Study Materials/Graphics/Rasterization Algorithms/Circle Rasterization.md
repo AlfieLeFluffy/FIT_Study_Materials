@@ -1,7 +1,7 @@
 We can define a circle by its center point and radius: **(x - s<sub>1</sub>)<sup>2</sup> + (y - s<sub>2</sub>)<sup>2</sup> = r<sup>2</sup>**
 Calculations are done only for 1/8 of the circle with the rest being mirrored around to complete the full circle. All of the algorithms are derived for circles that have their center point at \[0,0\], so they have to shifted after generation.
 ## Point Generation
-It is the easier for understanding and for generation, but it is quite intensive on the [[Hardware (HW)]]. It uses floating point arithmetic and generates the 1. kvadrant for an angle greater then 45 degrees, with the rest being symmetrically flipped around. The generation follows the direction of the clock, so in essence it generates from 12:00 to 1:30 and then fabricates the rest.
+It is the easier for understanding and for generation, but it is quite intensive on the [[Hardware]]. It uses floating point arithmetic and generates the 1. kvadrant for an angle greater then 45 degrees, with the rest being symmetrically flipped around. The generation follows the direction of the clock, so in essence it generates from 12:00 to 1:30 and then fabricates the rest.
 ### Princip
 1. The algorithm goes from the point **\[0,R\]** until **x = y**.
 2. In the X axis the algorithm increments by **dx = 1**.
