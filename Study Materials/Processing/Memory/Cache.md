@@ -4,8 +4,9 @@ tags:
 aliases:
   - RVP
   - Quick Balancing Memory
+  - cache
 ---
-Quick buffering memory close to the [[Microprocessor|processor]] (RVP, rychlý vyrovnávací paměť) that helps to achieve the quickest load/store times then what could be achieved only by using [[OS]] memory ([[Random Access Memory|RAM]]).
+Quick buffering memory close to the [[Microprocessor|processor]] that helps to achieve the quickest load/store times then what could be achieved only by using [[OS]] memory ([[Random Access Memory|RAM]]).
 ## Properties
 - In processors it is usually divided into several layers, such as L1 and L2 for each core and L3 shared between cores. 
 - This hierarchical division of memory tries to eliminate the differences between [[CPU]] speed and the speed of the [[OS]] memory.
@@ -13,12 +14,13 @@ Quick buffering memory close to the [[Microprocessor|processor]] (RVP, rychlý v
 - [[OS]] memory usually have much more blocks of data then cache does.
 - There are mechanisms that select which [[Frame]]s should be loaded into cache.
 - These mechanisms should work with a rate of success, otherwise the system would need to spend a lot of time loading missing data.
-- Some of the properties of mechanisms and cache are:
-	- **Hit Rate** is the chance that the data the systems seeks is in the cache. Usually should be around 95-99%.
-	- **Miss Rate** inverse of hit rate (1 - Hit Rate).
-	- **Access time** is the time to get access to data that are stored in cache.
-	- **Loss time** is the time to get access to data that are not stored in cache and have to be loaded.
-
+## Parameters
+Some of the parameters of mechanisms and cache are:
+- **Hit Rate** is the chance that the data the systems seeks is in the cache. Usually should be around 95-99%.
+- **Miss Rate** inverse of hit rate (1 - Hit Rate).
+	- A miss rate exists for every level of cache so in L1 a 5% miss rate means it misses in L1 in 5% of times, but a L2 miss rate of 2% means that it missed both in L1 and L2 with a 2% probability.
+- **Access time** is the time to get access to data that are stored in cache.
+- **Loss time** is the time to get access to data that are not stored in cache and have to be loaded.
 ## Organization
 The way the cache is organized is based upon the way the elements are mapped from the [[OS]] memory to the cache. Its main purpose should be to reduce **Miss Rate**.
 ### Direct Mapping
