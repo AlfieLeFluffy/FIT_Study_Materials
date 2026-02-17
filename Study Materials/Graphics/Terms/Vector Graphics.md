@@ -1,3 +1,13 @@
+---
+tags:
+  - IZG
+  - PGR
+aliases:
+  - vector graphics
+  - vector images
+sources:
+  - "[[PGR_01_Revision_1.pdf]]"
+---
 Handled and displayed information is described and stored **analytically** (continuously) in the form of groups of **vector entities** such as a lines, circles, curves, polygons, etc.
 ## Properties
 - The details (level of detail) of the description are technically unlimited.

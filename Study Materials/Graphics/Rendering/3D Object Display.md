@@ -1,3 +1,11 @@
+---
+tags:
+  - IZG
+  - PGR
+aliases:
+  - object order rendering
+  - object rendering
+---
 To display a 3D object we usually use a 2D plane through a process called **projection** (transformation of 3D to 2D, which means loss of data). The display (window) then become a **viewport**. To project an object we use so called **projection rays**. In computer graphics we most often use triangles to rasterize 3D objects as they are convex and their calculations can accelerate rather well in [[Hardware]].
 ## Components of a 3D Scene
 - **Near Clip Plane** defines the minimal distance an object has to be away from the camera (minimal depth) in order for the camera to render it.
@@ -10,14 +18,14 @@ To display a 3D object we usually use a 2D plane through a process called **proj
 This projection keeps the size of the objects the same regardless of how far away from the viewport they are.
 ### Properties
 - Keeps lines parallel to each other.
-- The distance of the viewport does not influence the size on the resulting image.
+- The distance of the viewport does not influence the size on the resulting [[Image]].
 - Orthogonal projection means that the projection rays run perpendicular to the viewport.
 - It is commonly used in technical applications such as **CAD** and other documenting programs.
 ## Perspective (Center) Projection
 This perspective draws objects further away from the viewport smaller.
 ### Properties
 - Does not keeps lines parallel to each other.
-- The distance of the viewport does influence the size on the resulting image.
+- The distance of the viewport does influence the size on the resulting [[Image]].
 - Non linear center projection means that all projection rays travel out of one point (the center of projection), then through the viewport and onto the scene.
 - To ease the manipulation with the camera it is usually fixed in place at the start of the coordinate system and the scene moves instead through [[Geometric Transformation]]s.
 - **Geometric Projection Princip** - From the points (peaks) of triangles in the scene are projected rays towards the viewport (in perspective towards the center). In the places the ray intersects with the **viewport** is the place the we rasterize the point representing the place.
@@ -29,7 +37,7 @@ It is a method for realistic looking scene projection. It uses backwards trackin
 - **Secondary** are created when a primary or secondary ray lands or gets refracted, they originate in the place of landing and are more chaotic then the primary rays.
 ### Optimization
 Ray tracing is quite a complicated and difficult process, but there are ways to optimize it:
-- Secondary rays have less influence on the final image.
+- Secondary rays have less influence on the final [[Image]].
 - Intensity of light sources decreases with cubic law.
 - Lower resolution
 ## Radiozity

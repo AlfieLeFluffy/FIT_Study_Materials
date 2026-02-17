@@ -1,3 +1,10 @@
+---
+tags:
+  - IZG
+  - PGR
+aliases:
+  - polygon rasterization
+---
 To rasterize the borders of a polygon we can just use [[Line Rasterization]] algorithms, but to colour in a polygon we need more complex solutions.
 ## Types
 We have two main types of polygons:

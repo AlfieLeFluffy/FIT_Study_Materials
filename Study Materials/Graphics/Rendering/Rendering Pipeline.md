@@ -1,3 +1,10 @@
+---
+tags:
+  - IZG
+  - PGR
+aliases:
+  - rendering pipeline
+---
 There are several components to make up the (programable) rendering pipeline.
 ## Components
 1. **Vertex Assembly (Puller)** is a component on the graphics card that is responsible for reading stored data about points and putting them together to create a vertex. For this the puller uses several **reading heads**, with each one constructing one attribute of the vertex (position, normal, colour, etc...). The head move with a step called stride and some offset. They read the data from a byte array.

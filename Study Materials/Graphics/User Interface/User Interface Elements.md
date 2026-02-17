@@ -1,4 +1,9 @@
-#UI
+---
+tags:
+  - ITU
+aliases:
+  - user interface elements
+---
 There are several standard GUI elements that are labelled as **WIMP**:
 - **Window** usually represents a running program.
 	- **Primary** window of an application (program) usually contains its menu,  and multiple unrelated functions.

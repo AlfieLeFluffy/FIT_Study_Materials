@@ -3,6 +3,8 @@ tags:
   - PGR
 aliases:
   - level of detail
+sources:
+  - "[[PGR_04_Level_of_Detail.pdf]]"
 ---
 The main idea behind level of detail is to reduce the rendering cost of objects that are far away and their details are not necessary and would be lost in the final scene, which is done to save resources.
 ## Selection
@@ -14,8 +16,7 @@ Selection of the level of detail for an object can be done through:
 There are several ways to simplify a model for several levels of detail, such as:
 - **Decimation**
 - **Edge Collapse** (Vertex Split)
-- **Progressive Meshes** (Hugues Hoppe)
-	- A model can be encoded as a super simple net with a series of vertex-split operations.
+- **Progressive Meshes** (Hugues Hoppe): A model can be encoded as a super simple net with a series of vertex-split operations.
 ### Billboarding
 Billboarding is a simple technique where a 3D object is represented through a 2D sprite when looked from far enough. This sprite is only from one angle/
 ### Impostors

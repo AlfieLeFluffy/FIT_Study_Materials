@@ -1,3 +1,11 @@
+---
+tags:
+  - IZG
+  - PRG
+aliases:
+  - geometric transformations
+  - homogenous transformation
+---
 Geometric transformation changes the positions of points (peaks) of objects v current coordinate system or changes the coordinate system.
 ## Linear Transformation
 Linear transformation keeps the linear combinations of objects (vectors can be applied in any order and the outcome will be the same). For any two vectors and a scalar we can say that:

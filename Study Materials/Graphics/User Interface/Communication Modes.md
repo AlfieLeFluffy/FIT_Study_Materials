@@ -1,4 +1,9 @@
-#UI
+---
+tags:
+  - ITU
+aliases:
+  - communication modes
+---
 There are two things that can be considered **modes of communication** and that is how the system and the user exchange information and how the user can change how the system interprets input.
 ## System User Dynamic
 There two main dynamics used in communication between user and system:
