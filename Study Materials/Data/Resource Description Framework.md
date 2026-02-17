@@ -9,13 +9,13 @@ The goal of RDF is to represent structured data, its meaning (semantics) and to 
 - [[Relation Data Model]]/[[Object Data Model]]/[[NoSQL]] databases are tied to the application.
 - Public APIs + [[Serialization and Deserialization]] (JSON, XML) do not have a predefined semantics.
 ## Fact Representation
-RDF allows for representation of elementary statements that represent data/facts. It has a [[Oriented Graph|oriented graph]] structure and each statements are interconnected using URI. These facts can be serialized and stored in file for transfer and can be written using formats such as XML.
+RDF allows for representation of elementary statements that represent data/facts. It has a [[Oriented Graph|oriented graph]] structure and each statements are interconnected using URI. These facts can be serialized and stored in a file for transfer and can be written using formats such as XML.
 ### Statement
-The basic element in RDF is a trio **subject-predicate-object**, which is the basic statement. An example of such statement can be *"autor of document X is person Y,"* where:
+The basic element in RDF is a trio **subject-predicate-object**, which is a basic statement. An example of such statement can be *"autor of document X is person Y,"* where:
 - **Subject**: *document X*
 - **Predicate**: *authored by*
 - **Object**: *person Y*
-Each part of the statement (resources) are represented using URI or literal (only object). If we would take the previous example then it could look something like:
+Each part of the statement (resources) are represented using URI or a literal (only objects). If we would take the previous example then it could look something like:
 ```
 http://novak.cz/documentX == http://novak.cz/authored-by => personY
 ```
