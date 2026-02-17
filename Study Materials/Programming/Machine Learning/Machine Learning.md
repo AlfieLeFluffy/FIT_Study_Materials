@@ -12,7 +12,7 @@ A typical task for machine learning is to take an *input observation*, run this 
 ### Machine Learning Task Examples
 Examples of such tasks can be:
 - Recognize words in a speech recording.
-- Recognize person identity from an image of their face.
+- Recognize person identity from an [[Image]] of their face.
 - Translate Czech text to Korean.
 - Classify object from its parameters.
 - Predict stock prices using companies' past quarterly revenue results.
@@ -33,7 +33,7 @@ The set of learning data is commonly *divided into two or three subsets*. The fi
 ## Goals of Machine Learning
 The main goal summarized is to take a given *set of training examples* and learn how to map *new "unseen" examples* onto desire output. Examples of this could be:
 - Given a data set of hundreds of hours of transcribed speech audio recordings learn to automatically transcribe new speech recordings.
-- Given a data set of millions of images of human faces labelled by person identity learn to recognize person identity in a new image.
+- Given a data set of millions of images of human faces labelled by person identity learn to recognize person identity in a new [[Image]].
 ## Types of Machine Learning
 There are four main types of machine learning:
 - [[Supervised Learning]]

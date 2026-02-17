@@ -1,3 +1,12 @@
+---
+tags:
+  - INC
+aliases:
+  - coder
+  - encoder
+  - priority coder
+  - priority encoder
+---
 Coder transforms (encodes) information from **N** inputs to **K** outputs based upon a combination table. It is complimentary circuit for the [[Decoder]]. 
 Generally it is given that **N > K** (otherwise it would be a encoder) and **2<sup>K</sup> >= N** (otherwise the result of the encoding could not be guarantied).
 ![[Coder_Circut.excalidraw.svg]]

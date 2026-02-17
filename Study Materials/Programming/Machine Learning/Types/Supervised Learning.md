@@ -14,20 +14,20 @@ This learning is done on a set of training examples **T**, where each example is
 ## Tasks
 Common tasks supervised learning is used for are:
 - **Classification** is that given training examples (coloured dots), learn to assign class (colour) to new "unseen" observations.
-	- Recognize persons identity from an image.
+	- Recognize persons identity from an [[Image]].
 	- Classify objects from parameters.
-	- Classify facial expressions from a video.
+	- Classify facial expressions from a [[video]].
 - **Regression** is that given training examples, learn to predict likely values for new "unseen" observations.
 	- Predict stock prices using previous company observations.
 	- Predict weather from past meteorological measurements.
 - **Basic Pattern Recognition**
 	- Recognize words in speech recordings.
-	- Detect and classify all known objects in a video.
-	- Estimate poses of every person in a video.
+	- Detect and classify all known objects in a [[video]].
+	- Estimate poses of every person in a [[video]].
 - **Other**
 	- Translate text from one language into another.
-	- Automatically describe image.
-	- Generate realistic image from text description.
+	- Automatically describe [[Image]].
+	- Generate realistic [[Image]] from text description.
 ## Classification
 For classification in supervised learning [[Classifier|classifiers]] are commonly used.
 ![[Classifier]]

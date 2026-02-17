@@ -1,3 +1,13 @@
+---
+tags:
+  - IMP
+  - ISS
+  - MUL
+aliases:
+  - convertor
+  - A/D convertor
+  - D/A convertor
+---
 Convertors allow communication with an analog world. This means that analog values can be converted (parsed) into binary (digital) values and back. This can for example be used in to convert a analogue value out of a temperature sensor into digital values that can be converted into temperature.
 ## Types
 There are two types of convertors:

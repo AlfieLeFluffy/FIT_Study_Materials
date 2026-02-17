@@ -26,6 +26,7 @@
     "hints": "multitext",
     "related_question": "multitext",
     "finished": "checkbox",
-    "excalidraw-embed-md": "checkbox"
+    "excalidraw-embed-md": "checkbox",
+    "sources": "multitext"
   }
 }

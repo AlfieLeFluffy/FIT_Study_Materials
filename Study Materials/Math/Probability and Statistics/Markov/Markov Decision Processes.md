@@ -5,6 +5,8 @@ tags:
 aliases:
   - markov decision processes
   - MDP
+sources:
+  - "[[MSP_02_Markov_Decision_Processes.pdf]]"
 ---
 Markov Decision Processes are **non-deterministic discrete-time** [[Markov Chain#Probabilistic Models|probabilistic model]] and are the **non-deterministic** counterpart of the **fully probabilistic** [[Discrete-Time Markov Chains]] (DTMCs).
 ## Advantages
@@ -63,7 +65,7 @@ To compute $P_{\text{min}}(s\to T)$ for $\forall s\in S$:
 	2. Intuition for probability 0 is: *exists a scheduler for which no path leads to T*
 2. For the remaining states $S_{?} = S\setminus(S_{1} \cup S_{2})$ solve the **linear program**:
 $$\text{maximise} \sum_{s\in S_{?}}x_{s}\text{ subuject to the constratints:}$$
-$$x_{s}\leq \sum_{s'}\in S_{?}P(s,\alpha,s')\times x_{s'}+\sum_{s'\in S_{1}}P(s,\alpha,s')\times_{1}$$
+$$x_{s}\leq \sum_{s'\in S_{?}}P(s,\alpha,s')\times x_{s'}+\sum_{s'\in S_{1}}P(s,\alpha,s')\times_{1}$$
 $$0\leq x_{s}\leq_{1}$$
 $$\text{for all }s\in S_{?} \text{ and for all } \alpha \in \text{Act}(s)$$
 
@@ -73,7 +75,7 @@ To compute $P_{\text{max}(s\to T)}$ for $\forall s\in S$: ㅤ
 	2. Intuition for probability 0 is: *for all schedulers there is not path leading to T*
 2. For the remaining states $S_{?} = S\setminus(S_{1} \cup S_{2})$ solve the **linear program**:
 $$\text{minimize} \sum_{s\in S_{?}}x_{s}\text{ subuject to the constratints:}$$
-$$x_{s}\geq \sum_{s'}\in S_{?}P(s,\alpha,s')\times x_{s'}+\sum_{s'\in S_{1}}P(s,\alpha,s')\times_{1}$$
+$$x_{s}\geq \sum_{s'\in S_{?}}P(s,\alpha,s')\times x_{s'}+\sum_{s'\in S_{1}}P(s,\alpha,s')\times_{1}$$
 $$0\leq x_{s}\leq_{1}$$
 $$\text{for all }s\in S_{?} \text{ and for all } \alpha \in \text{Act}(s)$$
 ## Value Iteration Approach
@@ -103,15 +105,10 @@ $$
 So, we create the first step of the iteration as:
 $$x^{(0)} = (odd, even,W,L) = (0,0,1,0)$$
 Then we iterate for the first time as:
-$$x^{1}(odd) = max\{ 0.5\times_1,0\} = 0.5$$
-$$x^{1}(even) = max\{ 0.5\times 1,0.5\times1\} = 0.7$$
-
+$$x^{1}(odd) = max\{ 0.5\times 1;0\} = 0.5$$
+$$x^{1}(even) = max\{ 0.5\times 1;0.5\times1\} = 0.7$$
 $$x^{1}(W) = 1$$
 $$x^{1}(L) = 0$$
 So then after the first iteration we get:
-$$x^{(0)} = (odd, even,W,L) = (0.5,0.7,1,0)$$
+$$x^{(1)} = (odd, even,W,L) = (0.5,0.7,1,0)$$
 This can be done for ever, making the result of each iteration more precise until the new changes are insignificant, such as lost in rounding or enough iteration have been reached.
-
----
-### Sources
-- [[MSP_02_Markov_Decision_Processes.pdf]]

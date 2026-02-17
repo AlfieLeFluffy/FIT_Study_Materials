@@ -1,4 +1,5 @@
 {
   "cssTheme": "AnuPpuccin",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "theme": "system"
 }
