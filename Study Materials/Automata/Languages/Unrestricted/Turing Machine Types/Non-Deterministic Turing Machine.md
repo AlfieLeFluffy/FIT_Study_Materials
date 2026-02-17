@@ -4,6 +4,8 @@ tags:
 aliases:
   - non-deterministic turing machine
   - NTM
+sources:
+  - "[[TIN_04_Turing_Machine.pdf]]"
 ---
 A non-deterministic [[Turing Machine]] type that is similar in most aspect to the normal one, with the exception of the transitional functions that is:
 $$\sigma: (Q\setminus \{ q_{f} \})\times \Gamma\to 2^{Q\times(\Gamma \cup \{ L,R \})}$$

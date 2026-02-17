@@ -6,6 +6,8 @@ aliases:
 tags:
   - IFJ
   - TIN
+sources:
+  - "[[TIN_01_Introduction_and_Formal_Language.pdf]]"
 ---
 Any sequence of terminal and non-terminal symbols.
 For alphabet **Σ**:

@@ -4,8 +4,10 @@ tags:
   - TIN
 aliases:
   - language
+sources:
+  - "[[TIN_01_Introduction_and_Formal_Language.pdf]]"
 ---
-If **Σ\*** is a [[Set]] of all possible [[Study Materials/Automata/Terms/Word|strings]] **w** over [[Alphabet|alphabet]] **Σ**, then each subset **L ⊆ Σ\*** is a language over the alphabet **Σ**. These subsets are then sets of strings made up of the alphabet. The **amount of words** of a language is its cardinality. 
+If $\Sigma^*$ is a [[Set]] of all possible [[Study Materials/Automata/Terms/Word|strings]] **w** over [[Alphabet|alphabet]] **Σ**, then each subset **L ⊆ Σ\*** is a language over the alphabet **Σ**. These subsets are then sets of strings made up of the alphabet. The **amount of words** of a language is its cardinality. 
 ## Types
 - A **finite** language has an ending (countable) amount of strings is finite.
 - An **infinite** language is the opposite, where the amount of strings is uncountable.

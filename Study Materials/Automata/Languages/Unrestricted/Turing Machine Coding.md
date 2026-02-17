@@ -4,6 +4,8 @@ tags:
 aliases:
   - Turing machine coding
   - TM coding
+sources:
+  - "[[TIN_04_Turing_Machine.pdf]]"
 ---
 A [[Turing Machine|Turing machine]] can be encoded into a string that is understandable and can be simulated on a [[Universal Turing Machine|universal Turing Machine]]. This coding must include:
 - **States** including $q_{0},q_{f}$

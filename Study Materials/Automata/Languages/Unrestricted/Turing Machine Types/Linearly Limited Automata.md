@@ -4,6 +4,8 @@ tags:
 aliases:
   - linearly limited automata
   - LLA
+sources:
+  - "[[TIN_04_Turing_Machine.pdf]]"
 ---
 Linearly limited automata is a special kind of [[Turing Machine|Turing machine]] that will never leave the part of a tape onto which the input is written.
 ## Definition

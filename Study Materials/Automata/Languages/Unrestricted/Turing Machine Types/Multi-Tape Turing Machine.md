@@ -4,6 +4,8 @@ tags:
 aliases:
   - multi-tape turing machine
   - MTM
+sources:
+  - "[[TIN_04_Turing_Machine.pdf]]"
 ---
 A [[Turing Machine]] type that uses multiple tapes with tape [[Alphabet|alphabets]] $\Gamma_{1},\Gamma_{2},\Gamma_{3},\dots,\Gamma_{k}$, where $k$ is the amount of heads/tapes with the transitional function:
 $$\sigma:(Q\setminus{q_{f}})\times \Gamma_{1}\times\Gamma_{2}\times\dots \times \Gamma_{k}\to Q\times\Gamma_{1}'\times\Gamma_{2}'\times\dots \times \Gamma_{k}'$$

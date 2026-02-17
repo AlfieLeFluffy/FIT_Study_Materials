@@ -5,6 +5,8 @@ tags:
 aliases:
   - TM
   - Turing machine
+sources:
+  - "[[TIN_04_Turing_Machine.pdf]]"
 ---
 Turing machines are the most unrestricted and most powerful of the machines/automate from the [[Chomsky Hierarchy]].
 ## Church-Turing Theses

@@ -5,6 +5,8 @@ aliases:
   - computable function
   - Computable Functions
   - computable functions
+sources:
+  - "[[TIN_04_Turing_Machine.pdf]]"
 ---
 ## Computable Functions
 A computable functions are restricted through [[Turing Machine Coding|TM coding]] to functions of a shape:
