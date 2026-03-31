@@ -1,3 +1,11 @@
+---
+tags:
+  - IZU
+  - SUI
+aliases:
+  - decision tree building
+  - decision tree
+---
 A **decision tree** is used to classify objects based on the values of its attributes. They are created with a known set of examples and are used in datamining from databases.
 ### Decision Tree Algorithm
 It is a basic algorithm for building a decision tree. It has two input parameters:

@@ -1,3 +1,9 @@
+---
+tags:
+  - INC
+aliases:
+  - Bool's algebra
+---
 Bool's algebra is an [[Relation#Algebra|algebraic]] structure that uses only binary symbols (**∧, ∨**) and an unary symbol (**¬**). It is **distributive complementary** [[View#Union (Svaz)|Union (Svaz)]]. Bool's algebra can be described as a sextuple **(B, ∧, ∨, ¬ , 0, 1)**. where:
 - **B** is an non-empty [[Set]].
 - **0 ∈ B** and is the smallest element.

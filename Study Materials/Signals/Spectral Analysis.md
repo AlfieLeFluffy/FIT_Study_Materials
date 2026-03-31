@@ -1,3 +1,11 @@
+---
+tags:
+  - ISS
+  - MUL
+aliases:
+  - spectral analysis
+sources:
+---
 We use spectral analysis of signals to analyse their **frequential characteristic**. We are interested in:
 - **Where** are the **frequential components** signal. On what frequencies these components are.
 - **How many** signals there are on each frequency (**amplitude**).
@@ -55,7 +63,7 @@ $$
 ### Fourier Transform (FT)
 Generalization of a **Fourier Series** for non-periodic signals. It is used to transform signals from **space or time** planes into a **frequency** plane. It allows us to decompose a signal into its corresponding frequencies, that make up the original signal.
 - **Input** is a general continuous signal that does not have to be periodic.
-- **Output** is a series of complex numbers, from which each corresponds to one frequency. The complex number is made of **amplitude** (the real component) and **phase** (the imaginary component) of the frequency **spectrum**. It can be sometimes used to decompose **Fourier Series** if it contains one period. 
+- **Output** is a series of [[Complex Number|complex numbers]], from which each corresponds to one frequency. The [[complex number]] is made of **amplitude** (the real component) and **phase** (the imaginary component) of the frequency **spectrum**. It can be sometimes used to decompose **Fourier Series** if it contains one period. 
 $$
 S(w) = \int_{-\infty}^{\infty} s(t)e^{-iwt} \, dt 
 $$

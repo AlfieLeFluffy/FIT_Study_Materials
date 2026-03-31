@@ -15,7 +15,7 @@ Some basic properties of NoSQL databases:
 	- **Graf**
 - Supports distributed architecture. Can be used as both centralized or distributed.
 - Most NoSQL databases are open-source.
-- Most often solve [[CAP]] by restricting data consistency through [[BASE]].
+- Most often solve [[Consistency Availability Partition Tolerance]] by restricting data consistency through [[Basically Available Soft-state Eventually consistent]].
 ### Key-Value
 One key only corelates to one value and there can be no duplicates. 
 - A key can be comprised of several parts, for example main and specifying, which can be use as an ID of structure and element. 

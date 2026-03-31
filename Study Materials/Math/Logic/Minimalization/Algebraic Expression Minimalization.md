@@ -1,3 +1,9 @@
+---
+tags:
+  - INC
+aliases:
+  - algebraic expression minimalization
+---
 Algebraic logic expression minimalization uses (applies) axioms of [[Bool's Algebra]]. This is a more demanding process especially for complex expressions.
 
 ## Bool's Algebra

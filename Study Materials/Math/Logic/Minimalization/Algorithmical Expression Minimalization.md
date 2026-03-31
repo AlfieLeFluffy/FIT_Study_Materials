@@ -1,3 +1,9 @@
+---
+tags:
+  - INC
+aliases:
+  - algorithmical expression minimalization
+---
 Algorithmical logic expression minimalization uses predefined algorithms to minimalize logic expressions. These methods are easier for both humans and computers to implement, especially with complex expressions.
 ## Quine McCluskey
 This algorithm using a tabular method, which is useful for functions that require multiple variables (4+). Can be done both for disjunctive and conjunctive final expressions, but the one describe bellow is for disjunctive.

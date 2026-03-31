@@ -1,3 +1,10 @@
+---
+tags:
+  - IOS
+aliases:
+  - access rights
+  - rights
+---
 Access right to files and other such objects are done for security reasons. There are different access right for the **owner**, a **group** and **others**. 
 ## Format
 A common format for access right is through a bit array in which each bit corresponds to:

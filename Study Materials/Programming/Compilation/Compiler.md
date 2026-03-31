@@ -2,6 +2,9 @@
 tags:
   - IFJ
   - to_be_finished
+aliases:
+  - compiler
+  - compilers
 ---
 A compiler **reads, understands, optimizes and converts** a source program (**source files**) into target program (**executable**). To this the compiler goes through several compilation phases.
 ## Compilation Phases

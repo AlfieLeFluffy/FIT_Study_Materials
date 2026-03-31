@@ -2,6 +2,8 @@
 tags:
   - IFJ
   - TIN
+aliases:
+  - Chomsky heirarchy
 ---
 The Chomsky hierarchy is part of the **formal language theory** that classes formal grammar into types (levels). Each types includes the formal grammars of the previous level.
 ## Types

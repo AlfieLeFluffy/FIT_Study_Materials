@@ -1,3 +1,10 @@
+---
+tags:
+  - INC
+aliases:
+  - adders
+  - adder
+---
 Binary counters are combination circuits that add two binary numbers together.
 
 ## Half Adder

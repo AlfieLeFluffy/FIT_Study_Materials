@@ -1,3 +1,9 @@
+---
+tags:
+  - ISS
+aliases:
+  - differential equations
+---
 **Differential equation** represents equations of **an unknown order** and **their differences**. These are differential equations that are in discrete time. In general these equations look:
 $$
 y[n] = \sum_{k = 0}^{Q}b_{k}x[n-k] \  - \ \sum_{k = 1}^{P}a_{k}y[n-k] 

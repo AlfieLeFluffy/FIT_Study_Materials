@@ -1,4 +1,14 @@
-#IPT #MSP
+---
+tags:
+  - IPT
+  - MSP
+aliases:
+  - basic probability
+  - Probability
+  - probability
+---
+## Definitions
+Some basic definition regarding probability are:
 ### Probability Space
 **Ω** is the set of all possible values that a **random value X** can become and is also called the **probability space**. A probability space for sequential coin tosses looks like **Ω = {(heads, heads), (heads, tails), (tails, heads), (tails, tails)}**.
 ### Random Phenomenon

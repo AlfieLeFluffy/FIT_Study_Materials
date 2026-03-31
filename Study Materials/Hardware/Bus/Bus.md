@@ -1,3 +1,9 @@
+---
+tags:
+  - INP
+aliases:
+  - bus
+---
 Is an interconnectivity component that allows for communication between more then one sources of data and receivers of data. It is responsible for data transfers and control instructions between devices.
 ## Components
 A bus can be defined as:

@@ -2,6 +2,8 @@
 tags:
   - IFJ
   - TIN
+aliases:
+  - automata
 ---
 ## Definition
 Automata is an ordered sextuplet **M = (S, Σ, Λ, T, G, s<sub>0</sub>)**, where each element represents:

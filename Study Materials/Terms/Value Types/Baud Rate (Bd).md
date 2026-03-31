@@ -1,1 +1,0 @@
-An amount of symbols (bits, bytes, etc.) transmitted over **one second**. In [[Serial Interface]]s 1Bd = 1b/s. 

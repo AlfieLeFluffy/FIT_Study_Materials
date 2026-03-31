@@ -5,7 +5,7 @@ tags:
 aliases:
   - FPGA
 ---
-FPGA is a programable gate array that is a compromise between a fully [[Hardware]] solution such as [[Application Specific Integrated Circuit (ASIC)]], which quicker and more efficient and a fully [[Software]] solution, which has the most flexibility.
+FPGA is a programable gate array that is a compromise between a fully [[Hardware]] solution such as [[Application Specific Integrated Circuit]], which quicker and more efficient and a fully [[Software]] solution, which has the most flexibility.
 ## Structure
 It is created with:
 - **Configurable Logic Blocks (CLBs)** that can be programmed with logic functions that are realized with [[Hardware]]. The blocks are comprised of several components that can together form one **CLB** or a **slice**. **CLB** can be create through multiple **slices**. These components are:

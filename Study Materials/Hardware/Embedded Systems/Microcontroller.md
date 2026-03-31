@@ -20,7 +20,7 @@ Most of the same components found in general purpose computers can be found in M
 - **[[Microprocessor|Processor]]**
 - **Operating (main) memory** - [[Random Access Memory]]
 - **Program memory** - [[Memory#Types|EEPROM, PROM, ROM, FLASH, ect.]]
-- **Oscillator** - generates [[CLK]] signal
+- **Oscillator** - generates [[Clock Signal]] signal
 - [[General Purpose Input Output (GPIO)]]
 ## Peripheries
 Most MCUs also provide some common peripheries:

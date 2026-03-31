@@ -1,3 +1,10 @@
+---
+tags:
+  - IDS
+aliases:
+  - data structure representation
+  - data structures
+---
 Unstructured data (numbers, strings, dates, etc.) have commonly no clear meaning unless stored in a data structure. There exists two main data structure types **collection** and **structure**.
 ## Structure 
 A structure is made of a finite amount of labelled data entries (pair name and value) that are commonly of different types. It is an unordered **tuple**, of which entries are the result of a Cartesian multiplication of multiple sets. We often also call structure an entry. While storing structure data in operating memory, we do not save the names of each structures entries.

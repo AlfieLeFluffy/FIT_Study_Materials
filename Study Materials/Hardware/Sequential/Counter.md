@@ -1,3 +1,10 @@
+---
+tags:
+  - INC
+aliases:
+  - counter
+  - counters
+---
 Counter (čítače) are a special type of state machines (speciální automaty) that react to the input impulses (like the rising or falling edge) with moving from one state to another state (incrementing or decrementing).
 ## Types
 Divided by synchronisty:
@@ -5,12 +12,12 @@ Divided by synchronisty:
 - **Synchronous** counter are controlled by an enable (control, clock) signal and can only count (change state) while enabled by that signal.
 Can have control inputs that enable:
 - **UP/DOWN** specify the direction of counting (incrementing/decrementing).
-- **[[CE]]** only remembers while in log. 0, counts in log. 1.
+- **[[Chip Enable]]** only remembers while in log. 0, counts in log. 1.
 - **P Enable** counts when in log. 1 and does not influence **RCO**.
 - **T Enable** counts when in log. 1.
 Can have output that indicate overflow (underflow) of the counter:
 - **[[RCO]]** or **TC**
-To increase the time to count / division ration / counter overflow are implemented with cascading (sequential) connection of multiple counters. Counters are connected by input **[[CE]]** onto output **[[RCO]] (TC)** of the previous counter.
+To increase the time to count / division ration / counter overflow are implemented with cascading (sequential) connection of multiple counters. Counters are connected by input **[[Chip Enable]]** onto output **[[RCO]] (TC)** of the previous counter.
 	For example three counter MOD10 connected in a sequence overflow only once in a 10 * 10 * 10 = 1000 impulses/cycles.
 ### T Flip-Flop Counter
 They can be for example 4-bit counters that can count from 0 to 15 and then have a ripple carry out when overflowing with the current state of the counter on the T Flip-Flop outputs of Q<sub>0</sub> to Q<sub>3</sub>.

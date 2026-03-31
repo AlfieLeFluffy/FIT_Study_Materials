@@ -1,3 +1,10 @@
+---
+tags:
+  - INC
+  - ISU
+aliases:
+  - decimal number representation
+---
 Special formats that allow representation of real number to some degree of precision.
 ## Fixed Decimal Point
 For representation of of positive real numbers. There is a fixed about of bit for representing the whole and the decimal parts of the number. Today it is not commonly used. 
