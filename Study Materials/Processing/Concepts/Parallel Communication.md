@@ -8,18 +8,19 @@ sources:
 ---
 Interactions and data sharing between actors in parallel architectures can be done in several ways, the two main ideas are **Shared Memory** and **Messaging**.
 ## Characteristics
-**Shared memory**:
+Characteristics of each approach are: 
+### Shared memory
 - Either *true* or *simulated*
 - Fighting over bus, cache, local links
 - Solving conflicts during write
 - Difficult to use during synchronization
 - All processors have access to a shared memory space.
-- Solution of simultaneous access to one memory cell is either:
-	- Exclusive-Read, Exclusive-Write (EREW)
-	- Concurrent-Read, Exclusive-Write (CREW)
-	- Exclusive-Read, Concurrent-Write (ERCW)
-	- Concurrent-Read, Concurrent-Write (CRCW)
-**Messaging**:
+- Solution of **simultaneous access** to one memory cell is either:
+	- Exclusive-Read, Exclusive-Write (**EREW**)
+	- Concurrent-Read, Exclusive-Write (**CREW**)
+	- Exclusive-Read, Concurrent-Write (**ERCW**)
+	- Concurrent-Read, Concurrent-Write (**CRCW**)
+### Messaging
 - *Channels*
 	- *Synchronous* or *asynchronous* (capacity)
 	- *One-way* or *two-way* (ACK)

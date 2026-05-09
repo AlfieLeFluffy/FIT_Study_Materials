@@ -23,3 +23,5 @@ Parallel architectures can be divided into:
 ![[Parallel Communication]]
 ## Synchronization
 ![[Parallel Synchronization]]
+
+![[Parallel Random Access Machine|PRAM]]

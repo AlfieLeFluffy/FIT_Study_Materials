@@ -4,131 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "a75032ab810e4300",
+        "id": "d04ecabb77053fd2",
         "type": "tabs",
-        "dimension": 58.35459183673469,
         "children": [
           {
-            "id": "a11be215257a821f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Questions/Master's Questions/Master's Questions.base",
-                "viewName": "Table"
-              },
-              "pinned": true,
-              "icon": "lucide-table",
-              "title": "Master's Questions"
-            },
-            "group": "8bee0c45a3fc639e"
-          },
-          {
-            "id": "ac3265f601859bb7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Questions/Bachelor's Questions/Bachelor's Questions.base",
-                "viewName": "Table"
-              },
-              "pinned": true,
-              "icon": "lucide-table",
-              "title": "Bachelor's Questions"
-            },
-            "group": "8bee0c45a3fc639e"
-          },
-          {
-            "id": "43d74117f5e46648",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/Bachelor's Questions/25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry..md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry."
-            }
-          },
-          {
-            "id": "25c0ff34b5f9c1b9",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "ToBeFinished.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "ToBeFinished"
-            }
-          },
-          {
-            "id": "efba7de15b6325b4",
+            "id": "0efdaffdef4c8cc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Materials/Automata/Languages/Regular/Pumping Lemma.md",
+                "file": "Study Materials/Graphics/Image Processing/Image Processing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pumping Lemma"
-            }
-          },
-          {
-            "id": "8c092066b63efbf0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Graphs/Graphs_Examples_Definition_Star.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Graphs_Examples_Definition_Star.excalidraw"
+              "title": "Image Processing"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
-        "id": "25e8b644d33be7d3",
+        "id": "26a9a6f67e8dd5b0",
         "type": "tabs",
-        "dimension": 41.64540816326531,
         "children": [
           {
-            "id": "e92348ae87253de7",
+            "id": "ee447abaa8ab9793",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Sources/SZZ_okruhy_all.pdf"
+                "file": "Sources/Master's Lectures/FYO/FYO_06_Acoustics.pdf"
               },
               "pinned": true,
               "icon": "lucide-file-text",
-              "title": "SZZ_okruhy_all"
-            }
-          },
-          {
-            "id": "d34fbf9dc5fe8b4a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Sources/Master's Lectures/TIN_02_Regular_Languages.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "TIN_02_Regular_Languages"
+              "title": "FYO_06_Acoustics"
             }
           }
         ]
@@ -188,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 352.5
   },
   "right": {
     "id": "232ea24c7b8ecb6d",
@@ -204,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/Bachelor's Questions/23. Struktura překladače a charakteristika fází překladu.md",
+                "file": "Study Materials/Physics/Optics/Wave/Complex Amplitude Permeability.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +124,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 23. Struktura překladače a charakteristika fází překladu"
+              "title": "Backlinks for Complex Amplitude Permeability"
             }
           },
           {
@@ -223,12 +133,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/Bachelor's Questions/23. Struktura překladače a charakteristika fází překladu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 23. Struktura překladače a charakteristika fází překladu"
+              "title": "Outgoing links"
             }
           },
           {
@@ -270,8 +179,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d3dbe7d51a96d37f",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -288,53 +208,58 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "25c0ff34b5f9c1b9",
+  "active": "0efdaffdef4c8cc2",
   "lastOpenFiles": [
-    "README.md",
-    "index.md",
-    "CROSSROADS.md",
-    "Questions/Master's Questions/Master's Questions.base",
-    "Questions/Bachelor's Questions/Bachelor's Questions.base",
-    "Questions/Bachelor's Questions/40. OOP.md",
-    "Questions/Bachelor's Questions/38. Principy a struktury správy souborů a správy paměti.md",
-    "Questions/Bachelor's Questions/36. Reprezentace a uložení strukturovaných dat, serializace a deserializace, relační datový model, jazyk SQL, transakce..md",
-    "Questions/Bachelor's Questions/34. Jazyk UML.md",
-    "Questions/Bachelor's Questions/31. Pravděpodobnost a statistika.md",
-    "Questions/Bachelor's Questions/30. Vyhledávání a řazení.md",
-    "Questions/Bachelor's Questions/27. Strojové učení.md",
-    "Questions/Bachelor's Questions/25. Teorie grafů. Pojem grafu, základní pojmy, isomorfismus grafů, souvislost. Grafové algoritmy pro hledání nejkratší cesty a minimální kostry..md",
-    "Questions/Bachelor's Questions/24. Numerické metody.md",
-    "Questions/Bachelor's Questions/23. Struktura překladače a charakteristika fází překladu.md",
-    "Questions/Bachelor's Questions/22. Bezkontextové jazyky a jejich modely.md",
-    "Questions/Bachelor's Questions/21. Regulární jazyky a jejich modely.md",
-    "Questions/Bachelor's Questions/20. Boolovy algebry.md",
-    "Questions/Bachelor's Questions/19. Výroková logika a predikátová logika.md",
-    "Questions/Bachelor's Questions/18. Číselné soustavy a převody mezi nimi.md",
-    "Questions/Bachelor's Questions/17. Diferenciální a integrální počet funkcí jedné a více proměnných.md",
-    "Questions/Bachelor's Questions/16. Množiny, relace a zobrazení.md",
-    "Questions/Bachelor's Questions/15. Číslicové filtry.md",
-    "Questions/Bachelor's Questions/14. Spektrální analýza spojitých a diskrétních signálů.md",
-    "Questions/Bachelor's Questions/13. Principy grafických uživatelských rozhraní.md",
-    "Questions/Bachelor's Questions/12. Transformace a zobrazení 3D polygonálních modelů, principy programovatelného vykreslovacího řetězce.md",
-    "Questions/Bachelor's Questions/11. 2D vektorová grafika.md",
-    "Questions/Bachelor's Questions/10. Technologie FPGA, kroky návrhu aplikací využívajících FPGA a základy syntetizovatelného popisu hardware.md",
-    "Sources/SZZ_okruhy_all.pdf",
-    "Excalidraw/Graphs/Graphs_Examples_Definition_Star.excalidraw.svg",
-    "Excalidraw/Graphs/Graphs_Examples_Definition_Full_Bipartite_Graph.excalidraw.svg",
-    "Excalidraw/Graphs/Graphs_Examples_Definition_Full_Graph.excalidraw.svg",
-    "Excalidraw/Graphs/Graphs_Examples_Definition_Circle.excalidraw.svg",
-    "Excalidraw/Graphs/Graphs_Examples_Definition_Path.excalidraw.svg",
-    "Excalidraw/Graphs/Graphs_Examples_Definition.excalidraw.svg",
-    "Sources/Master's Lectures/TIN_02_Regular_Languages.pdf",
-    "Sources/Master's Lectures/TIN_01_Introduction_and_Formal_Language.pdf",
-    "Sources/Master's Lectures/TIN_01_Regular_Languages.pdf",
-    "Excalidraw/Graphs",
-    "Study Materials/Math/Graph Theory",
-    "ToBeFinished.base",
-    "Study Materials/Study Materials.base",
+    "Sources/Master's Lectures/FYO/FYO_06_Acoustics.pdf",
+    "Sources/Elective Lectures/ZPO/ZPO_04_Fourier_Transformation.pdf",
+    "Sources/Elective Lectures/ZPO/ZPO_03_Linear_Filtering.pdf",
+    "Sources/Elective Lectures/ZPO/ZPO_01_Image_Processing.pdf",
+    "Sources/Elective Lectures/ZPO/ZPO_00_Image_Processing_Application.pdf",
+    "Study Materials/Graphics/Image Processing/Image Processing.md",
+    "Study Materials/Graphics/Image Processing",
+    "Sources/Elective Lectures/ZPO/ZPO_06_Image_Point_Transformation.pdf",
+    "Sources/Elective Lectures/ZPO/ZPO_05_Noise.pdf",
+    "Sources/Elective Lectures/ZPO/ZPO_02_Image_Capturing.pdf",
+    "Study Materials/Processing/Parallel Architectures.md",
+    "Study Materials/Programming/Algorithms/Parallel/PRAM Algorithms.md",
+    "Study Materials/Programming/Algorithms/Parallel/Parallel Sort.md",
+    "Study Materials/Programming/Algorithms/Parallel/Parallel Search.md",
+    "Study Materials/Programming/Algorithms/Parallel/Parallel Algorithms.md",
+    "Study Materials/Processing/Concepts/Parallel Networks.md",
+    "Study Materials/Processing/Concepts/Parallel Random Access Machine.md",
+    "Study Materials/Processing/Laws/Amdahl's Law.md",
+    "Study Materials/Processing/Laws/Gustafson's Law.md",
+    "Sources/Master's Lectures/PRL/PRL_05_PRAM.pdf",
+    "Study Materials/Processing/Concepts/Parallel Communication.md",
+    "Study Materials/Processing/Concepts/Parallel Synchronization.md",
+    "Sources/Master's Lectures/PRL/PRL_04_Search.pdf",
+    "Study Materials/Programming/Algorithms/Parallel/Parallel Matrix and Vector.md",
+    "Study Materials/Physics/Optics/Wave/Interference.md",
+    "Study Materials/Math/Complex Number.md",
+    "Study Materials/Physics/Waves/Progressive Waves.md",
+    "Study Materials/Physics/Waves/Waves.md",
+    "Study Materials/Physics/Optics/Wave/Wave Optics.md",
+    "Study Materials/Physics/Optics/Wave/Complex Amplitude Permeability.md",
+    "Study Materials/Physics/Optics/Electromagnetic/Electromagnetic Optics.md",
+    "Study Materials/Physics/Optics/Light.md",
+    "Study Materials/Physics/Optics/Wave/Diffraction.md",
+    "Study Materials/Physics/Optics/Wave/Dispersion.md",
+    "Study Materials/Physics/Waves/Superposition.md",
+    "Study Materials/Physics/Optics/Wave/Holography.md",
+    "Excalidraw/Architectures/Dataflow_Processor_Dynamic.excalidraw.svg",
+    "Excalidraw/Architectures/Dataflow_Processor_Static.excalidraw.svg",
+    "Excalidraw/Architectures/Dataflow_Graph_Node.excalidraw.svg",
+    "Excalidraw/squares.excalidraw.svg",
+    "Excalidraw/squares.excalidraw (1).svg",
+    "Pasted image 20251020143246.png",
+    "Excalidraw/Probability/Markov Chain/Markov_Chain_Example.excalidraw.svg",
+    "Excalidraw/Probability/Markov Decision Processes/MDP_Coin_Toss_Example.excalidraw.svg",
+    "Excalidraw/Architectures/Harvard_Acrhitecture_Diagram.excalidraw.svg",
+    "Excalidraw/Semiconductors/MOSFET/MOSFET_Gate_Draining.excalidraw.svg",
     "Study Materials/Processing/Untitled.canvas",
     "Untitled.canvas"
   ]

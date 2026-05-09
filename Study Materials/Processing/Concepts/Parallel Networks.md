@@ -13,6 +13,7 @@ There are four main types, which are:
 - **Dynamic**
 - **Shared** (busses)
 - **Switched**
+
 The characteristics of each network influences the suitability of individual types of algorithms and affects effectivity of data flow.
 ## Characteristics
 Some of the shared characteristics between types of networks are:
