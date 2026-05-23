@@ -1,3 +1,8 @@
+---
+tags:
+  - IOS
+aliases:
+---
 To speed up work with files buffers ([[Cache]]) are commonly used, that minimalize operations with slow peripherals such as [[File Systems#Storage Types| HDDs, SSDs]] or terminals. Partial caches have the size of one data block or a group and are grouped into collection of either static or dynamic length. A possible implementation of these are through [[Searching|Hash Tables]].
 Between a process and the data on a disk there is a [[Kernel]] and buffers. To get to these buffers a has table is used, where a the entries in the table point towards the buffer blocks.
 ## Operations with Files
@@ -57,4 +62,4 @@ To delete a file the steps are:
 1. **Resolves the filepath**, checks for existence of the file and checks for access rights.
 2. **Removes the static link to the i-node** in the directory.
 3. Decreases the number of links to the i-node.
-4. If the number decreases to 0, the i-node and all of its data can be freed. This happens after all process are done working with the file. This means that on UNIX the file can be deleted even if a process is using it, unlike in Windows.
+4. If the number decreases to 0, the i-node and all of its data can be freed. This happens after all process are done working with the file. This means that on [[UNIX]] the file can be deleted even if a process is using it, unlike in Windows.
