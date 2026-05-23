@@ -82,7 +82,7 @@ The analysis is:
 ### Parallel Splitting
 The task is to split a [[Set|set]] such that:
 - *Input*: sequence of number **S** a number **m**
-- *Output*: tree sequences **L**, **E** and **G** such that:
+- *Output*: three sequences **L**, **E** and **G** such that:
 	- $L=\{ s_{i} \in S: s_{i} <m\}$
 	- $E=\{ s_{i} \in S: s_{i} =m\}$
 	- $G=\{ s_{i} \in S: s_{i} >m\}$

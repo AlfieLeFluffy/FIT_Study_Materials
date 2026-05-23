@@ -24,6 +24,23 @@ A parallel random access machine is a **synchronous model of parallel computatio
 	- Unlimited cap
 	- Unlimited length of word (not commonly used or advised)
 	- Memory is controlled by one program
+```mermaid
+flowchart LR
+
+Common_Control --> RAM_R1
+Common_Control --> RAM_R2
+
+subgraph R1
+	M1 <--> RAM_R1
+end
+
+subgraph R2
+	M2 <--> RAM_R2
+end
+
+Common_Memory <--> RAM_R1
+Common_Memory <--> RAM_R2
+```
 
 PRAM is an alternative model to parallel [[Turing Machine|Turing machine]]. A calculation occurs in several *synchronous steps*, which are:
 1. Reading from shared memory

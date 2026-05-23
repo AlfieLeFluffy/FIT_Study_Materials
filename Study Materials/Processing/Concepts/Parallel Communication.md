@@ -31,3 +31,4 @@ Characteristics of each approach are:
 	- Flooding
 - Each processor has their own addressing space.
 - Processors have their own memory (cache), which is updated between them through messages.
+## Broadcast

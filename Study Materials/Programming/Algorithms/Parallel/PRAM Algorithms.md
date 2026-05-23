@@ -5,6 +5,7 @@ aliases:
   - PRAM algorithms
 sources:
   - "[[PRL_05_PRAM.pdf]]"
+  - https://www.youtube.com/watch?v=4mSQXGi0zSk
 ---
 These parallel algorithm are based on the [[Parallel Random Access Machine|PRAM]] architecture.
 ## Characteristics
