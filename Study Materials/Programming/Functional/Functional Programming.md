@@ -11,7 +11,7 @@ The basic model of functional programming is: a mathematical concept of a functi
 ## Languages
 Some common functional languages are:
 - FP
-- **Haskell**
+- [[Haskell]]
 - Miranda
 - Hope
 - Orwell
