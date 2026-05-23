@@ -29,10 +29,10 @@
 - [[29. Haskell - lazy evaluation (typy v jazyce včetně akcí, uživatelské typy, význam typových tříd, demonstrace lazy evaluation).]]
 - 30. Prolog – způsob vyhodnocení (základní princip, unifikace, chování vestavěných predikátů, operátor řezu – vhodné a nevhodné užití).
 - 31. Prolog – změna DB/programu za běhu (demonstrace na prohledávání stavového prostoru, práce se seznamy).
-- [[32. Interference světla (skládání dvou a více koherentních vln, intenzita složené vlny, interferenční člen, konstruktivní a destruktivní interference, princip interferometru).]]
-- [[33. Difrakce světla (rozložení intenzity světla za obdélníkovou a kruhovou štěrbinou, Airyho obrazec, rozlišovací schopnost optických přístrojů, oka).]]
+- [[32. Interference světla]]
+- [[33. Difrakce světla]]
 - [[34. Polarizace světla (přirozené a lineárně polarizované světlo, polarizační rovina, způsoby polarizace světla, elipticky polarizované světlo, polarizační filtry).]]
-- [[35. Holografie a laser (holografický kód, jeho dekódování, mimoosový hologram, objemový hologram, vztah holografie a laseru).]]
+- [[35. Holografie a laser]]
 - [[36. Pravděpodobnost, podmíněná pravděpodobnost, nezávislost.]]
 - [[37. Náhodná proměnná, typy náhodné proměnné, funkční a číselné charakteristiky, významná rozdělení pravděpodobnosti.]]
 - [[38. Bodové a intervalové odhady parametrů, testování hypotéz o parametrech.]]
